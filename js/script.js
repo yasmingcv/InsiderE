@@ -9,11 +9,14 @@ window.onload = function() {
                 const team = data.teams.find(t => t.id == teamId);
                 if (team) {
                     // Atualize o DOM com as informações do time
-                    const teamDetailsContainer = document.getElementById('team-details');
-                    teamDetailsContainer.innerHTML = `
+                    const teamDetailsContainerText = document.getElementById('team-details-text');
+                    const teamDetailsContainerImages = document.getElementById('team-details-images');
+                    console.log(teamDetailsContainerImages);
+                    teamDetailsContainerText.innerHTML = `
+                        <img src=${team.logo} alt="Logo do time">
                         <p>${team.description}</p>
                     `;
-                    teamDetailsContainer.style.backgroundImage = `url(${team.background})`;
+                    teamDetailsContainerImages.style.background = `${team.background}`;
                 }
             })
             .catch(error => console.error('Error fetching the JSON:', error));

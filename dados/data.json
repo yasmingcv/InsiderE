@@ -5,77 +5,77 @@
         "name": "ABT CUPRA FORMULA E TEAM",
         "description": "A ABT CUPRA Formula E Team é uma colaboração entre a ABT Sportsline e a CUPRA, a marca esportiva da SEAT. A equipe é conhecida por sua paixão pelo automobilismo e seu compromisso com a inovação tecnológica, trazendo uma abordagem única e dinâmica para a Fórmula E.",
         "background": "images/abt.png",
-        "logo": "images/abtlogo.png"
+        "logo": "images/abt/abtlogo.png"
       },
       {
         "id": 1,
         "name": "Andretti Formula E",
         "description": "A Andretti Formula E é uma equipe de corridas que faz parte do prestigiado Andretti Autosport. Fundada por Michael Andretti, a equipe é conhecida por sua rica herança no automobilismo e por sua dedicação ao desenvolvimento e à competição na Fórmula E, destacando-se pela performance e inovação.",
         "background": "images/andretti.png",
-        "logo": "images/andrettilogo.png"
+        "logo": "images/andretti/andrettilogo.png"
       },
       {
         "id": 2,
         "name": "Jaguar TCS Racing",
         "description": "A Jaguar TCS Racing é a equipe de Fórmula E da Jaguar, uma marca de luxo britânica. Em parceria com a Tata Consultancy Services (TCS), a equipe foca em inovação e sustentabilidade, alinhando-se com os objetivos da Fórmula E de promover a mobilidade elétrica e sustentável, enquanto busca vitórias nas pistas.",
         "background": "images/jaguar.png",
-        "logo": "images/jaguarlogo.png"
+        "logo": "images/jaguar/jaguarlogo.png"
       },
       {
         "id": 3,
         "name": "Envision Racing",
         "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
         "background": "images/envision.png",
-        "logo": "images/envisionlogo.png"
+        "logo": "images/envision/envisionlogo.png"
       },
       {
         "id": 4,
         "name": "Mahindra Racing",
         "description": "A Mahindra Racing é uma das equipes pioneiras na Fórmula E, representando a Mahindra &amp; Mahindra, um dos maiores conglomerados indianos. A equipe é conhecida por sua dedicação à inovação e à sustentabilidade no automobilismo elétrico, buscando constantemente se destacar nas competições.",
-        "background": "images/mahindra.png",
-        "logo": "images/mahindralogo.png"
+        "background": "linear-gradient(115deg, #fff 0 30%, #B82E1F 30%, #000000 100%)",
+        "logo": "images/mahindra/mahindralogo.png"
       },
       {
         "id": 5,
         "name": "Nissan Formula E Team",
         "description": "A Nissan Formula E Team é a representação da gigante automotiva Nissan na Fórmula E. A equipe traz a experiência e a inovação da Nissan em veículos elétricos para a competição, buscando avanços tecnológicos e desempenho superior nas corridas, refletindo o compromisso da marca com a mobilidade sustentável.",
         "background": "images/nissan.png",
-        "logo": "images/nissanlogo.png"
+        "logo": "images/nissan/nissanlogo.png"
       },
       {
         "id": 6,
         "name": "TAG Heuer Porsche Formula E Team",
         "description": "A TAG Heuer Porsche Formula E Team é a equipe oficial da Porsche na Fórmula E, em parceria com a renomada marca de relógios TAG Heuer. A equipe combina a herança de alta performance da Porsche com a precisão e inovação da TAG Heuer, aspirando a grandes conquistas na série de corridas elétricas.",
         "background": "images/porshe.png",
-        "logo": "images/porshelogo.png"
+        "logo": "images/porshe/porshelogo.png"
       },
       {
         "id": 7,
         "name": "NEOM McLaren Formula E Team",
         "description": "A NEOM McLaren Formula E Team é uma parceria que une a excelência da McLaren Racing com os avanços tecnológicos e sustentáveis promovidos pelo projeto NEOM. A equipe está focada em se tornar uma das principais forças da Fórmula E, combinando tradição automobilística com inovação futurista.",
         "background": "images/mclaren.png",
-        "logo": "images/mclarenlogo.png"
+        "logo": "images/mclaren/mclarenlogo.png"
       },
       {
         "id": 8,
         "name": "Maserati MSG Racing",
         "description": "A Maserati MSG Racing é a equipe da Maserati na Fórmula E, trazendo o prestígio e a tradição da marca italiana para o automobilismo elétrico. A equipe combina a herança de luxo da Maserati com a busca por desempenho e inovação, fazendo uma forte entrada na série de corridas.",
         "background": "images/maserati.png",
-        "logo": "images/maseratilogo.png"
+        "logo": "images/maserati/maseratilogo.png"
       },
       {
         "id": 9,
         "name": "DS Penske",
         "description": "A DS Penske é uma equipe resultante da união entre a DS Automobiles e a Penske Autosport. Esta parceria combina a experiência da DS em veículos elétricos e a tradição da Penske em competições, buscando consistentemente o sucesso nas corridas da Fórmula E através de inovação e excelência.",
         "background": "images/ds.png",
-        "logo": "images/dslogo.png"
+        "logo": "images/ds/dslogo.png"
       },
       {
         "id": 10,
         "name": "ERT Formula E Team",
         "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
         "background": "images/ert.png",
-        "logo": "images/ertlogo.png"
+        "logo": "images/ert/ertlogo.png"
       }
     ]
   }
