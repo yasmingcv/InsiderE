@@ -11,7 +11,39 @@
       "piloto1Nome": "LUCAS",
       "piloto1Sobrenome": "DI GRASSI",
       "piloto2Nome": "NICO",
-      "piloto2Sobrenome": "MUELLER"
+      "piloto2Sobrenome": "MUELLER",
+      "statsCurrentSeason": {
+        "averageSpeed": 275,
+        "averageAcceleration": 2.9,
+        "victories": 15,
+        "probabilityOfVictory": 75,
+        "pilotRanking": [
+          {
+            "pilot": "Robin Frijns",
+            "victories": 4
+          },
+          {
+            "pilot": "Nico Müller",
+            "victories": 3
+          },
+          {
+            "pilot": "René Rast",
+            "victories": 3
+          },
+          {
+            "pilot": "Kelvin van der Linde",
+            "victories": 2
+          },
+          {
+            "pilot": "Oliver Turvey",
+            "victories": 2
+          },
+          {
+            "pilot": "Daniel Abt",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 1,
@@ -24,7 +56,39 @@
       "piloto1Nome": "Jake",
       "piloto1Sobrenome": "Dennis",
       "piloto2Nome": "NORMAN",
-      "piloto2Sobrenome": "NATO"
+      "piloto2Sobrenome": "NATO",
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.0,
+        "victories": 18,
+        "probabilityOfVictory": 80,
+        "pilotRanking": [
+          {
+            "pilot": "Jake Dennis",
+            "victories": 5
+          },
+          {
+            "pilot": "Andre Lotterer",
+            "victories": 4
+          },
+          {
+            "pilot": "Oliver Askew",
+            "victories": 3
+          },
+          {
+            "pilot": "Maximilian Günther",
+            "victories": 3
+          },
+          {
+            "pilot": "Tom Blomqvist",
+            "victories": 2
+          },
+          {
+            "pilot": "Simona de Silvestro",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 2,
@@ -37,7 +101,39 @@
       "piloto1Nome": "Mitch",
       "piloto1Sobrenome": "Evans",
       "piloto2Nome": "NICK",
-      "piloto2Sobrenome": "CASSIDY"
+      "piloto2Sobrenome": "CASSIDY",
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.1,
+        "victories": 20,
+        "probabilityOfVictory": 82,
+        "pilotRanking": [
+          {
+            "pilot": "Mitch Evans",
+            "victories": 7
+          },
+          {
+            "pilot": "Sam Bird",
+            "victories": 5
+          },
+          {
+            "pilot": "Tom Dillmann",
+            "victories": 3
+          },
+          {
+            "pilot": "Nelson Piquet Jr.",
+            "victories": 2
+          },
+          {
+            "pilot": "Adam Carroll",
+            "victories": 2
+          },
+          {
+            "pilot": "James Calado",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 3,
@@ -50,7 +146,39 @@
       "piloto1Nome": "ROBIN",
       "piloto1Sobrenome": "FRIJNS",
       "piloto2Nome": "Sebastien",
-      "piloto2Sobrenome": "Buemi"
+      "piloto2Sobrenome": "Buemi",
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 3.0,
+        "victories": 16,
+        "probabilityOfVictory": 78,
+        "pilotRanking": [
+          {
+            "pilot": "Robin Frijns",
+            "victories": 5
+          },
+          {
+            "pilot": "Nick Cassidy",
+            "victories": 4
+          },
+          {
+            "pilot": "Sam Bird",
+            "victories": 3
+          },
+          {
+            "pilot": "Jake Dennis",
+            "victories": 2
+          },
+          {
+            "pilot": "António Félix da Costa",
+            "victories": 1
+          },
+          {
+            "pilot": "Mitch Evans",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 4,
@@ -63,7 +191,39 @@
       "piloto1Nome": "NYCK",
       "piloto1Sobrenome": "DE VRIES",
       "piloto2Nome": "EDOARDO",
-      "piloto2Sobrenome": "MORTARA"
+      "piloto2Sobrenome": "MORTARA",
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 2.8,
+        "victories": 17,
+        "probabilityOfVictory": 79,
+        "pilotRanking": [
+            {
+              "pilot": "Paul Aron",
+              "victories": 4
+            },
+            {
+              "pilot": "Taylor B.",
+              "victories": 3
+            },
+            {
+              "pilot": "Sam Bird",
+              "victories": 3
+            },
+            {
+              "pilot": "Sebastien",
+              "victories": 3
+            },
+            {
+              "pilot": "Nick C.",
+              "victories": 2
+            },
+            {
+              "pilot": "Jehan D.",
+              "victories": 2
+            }
+        ]
+    }
     },
     {
       "id": 5,
@@ -76,7 +236,39 @@
       "piloto1Nome": "Sacha",
       "piloto1Sobrenome": "Fenestraz",
       "piloto2Nome": "OLIVER",
-      "piloto2Sobrenome": "ROWLAND"
+      "piloto2Sobrenome": "ROWLAND",
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.2,
+        "victories": 19,
+        "probabilityOfVictory": 81,
+        "pilotRanking": [
+          {
+            "pilot": "Sebastian Buemi",
+            "victories": 6
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 5
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 4
+          },
+          {
+            "pilot": "Alexander Sims",
+            "victories": 2
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 1
+          },
+          {
+            "pilot": "Lucas di Grassi",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 6,
@@ -89,7 +281,39 @@
       "piloto1Nome": "Antonio",
       "piloto1Sobrenome": "Felix da Costa",
       "piloto2Nome": "Pascal",
-      "piloto2Sobrenome": "Wehrlein"
+      "piloto2Sobrenome": "Wehrlein",
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.3,
+        "victories": 21,
+        "probabilityOfVictory": 83,
+        "pilotRanking": [
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 7
+          },
+          {
+            "pilot": "André Lotterer",
+            "victories": 6
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 3
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 2
+          },
+          {
+            "pilot": "Maximilian Günther",
+            "victories": 2
+          },
+          {
+            "pilot": "Nyck de Vries",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 7,
@@ -102,7 +326,39 @@
       "piloto1Nome": "Jake",
       "piloto1Sobrenome": "Hughes",
       "piloto2Nome": "SAM",
-      "piloto2Sobrenome": "BIRD"
+      "piloto2Sobrenome": "BIRD",
+      "statsCurrentSeason": {
+        "averageSpeed": 295,
+        "averageAcceleration": 3.4,
+        "victories": 22,
+        "probabilityOfVictory": 85,
+        "pilotRanking": [
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 8
+          },
+          {
+            "pilot": "Nyck de Vries",
+            "victories": 6
+          },
+          {
+            "pilot": "Sébastien Buemi",
+            "victories": 3
+          },
+          {
+            "pilot": "Alexander Sims",
+            "victories": 2
+          },
+          {
+            "pilot": "Lucas di Grassi",
+            "victories": 2
+          },
+          {
+            "pilot": "Norman Nato",
+            "victories": 1
+          }
+        ]
+      }
     },
     {
       "id": 8,
@@ -115,7 +371,39 @@
       "piloto1Nome": "Maximilian",
       "piloto1Sobrenome": "Guenther",
       "piloto2Nome": "JEHAN",
-      "piloto2Sobrenome": "DARUVALA"
+      "piloto2Sobrenome": "DARUVALA",
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.2,
+        "victories": 18,
+        "probabilityOfVictory": 80,
+        "pilotRanking": [
+          {
+            "pilot": "Lucas di Grassi",
+            "victories": 5
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 4
+          },
+          {
+            "pilot": "Mitch Evans",
+            "victories": 3
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 2
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 2
+          }
+        ]
+      }
     },
     {
       "id": 9,
@@ -128,7 +416,39 @@
       "piloto1Nome": "Stoffel",
       "piloto1Sobrenome": "Vandoorne",
       "piloto2Nome": "Jean-Eric",
-      "piloto2Sobrenome": "Vergne"
+      "piloto2Sobrenome": "Vergne",
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.3,
+        "victories": 20,
+        "probabilityOfVictory": 82,
+        "pilotRanking": [
+          {
+            "pilot": "Mitch Evans",
+            "victories": 6
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 5
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 3
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2
+          },
+          {
+            "pilot": "André Lotterer",
+            "victories": 2
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 2
+          }
+        ]
+      }
     },
     {
       "id": 10,
@@ -141,7 +461,39 @@
       "piloto1Nome": "SÉRGIO",
       "piloto1Sobrenome": "SETTE CÂMARA",
       "piloto2Nome": "DAN",
-      "piloto2Sobrenome": "DTICKTUM"
+      "piloto2Sobrenome": "DTICKTUM",
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 3.1,
+        "victories": 17,
+        "probabilityOfVictory": 79,
+        "pilotRanking": [
+          {
+            "pilot": "Sam Bird",
+            "victories": 5
+          },
+          {
+            "pilot": "Mitch Evans",
+            "victories": 4
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 3
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 2
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 1
+          }
+        ]
+      }
     }
   ]
 }

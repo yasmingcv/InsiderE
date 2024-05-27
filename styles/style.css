@@ -68,3 +68,92 @@
     height: 100%;
     transform: translateX(-30%);
 } */
+
+#team-stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(270deg ,#B82E1F 25%, #440000 100%);
+    color: #fff;
+    padding: 50px;
+}
+
+#team-stats h3{
+    font-family: "Orbitron", sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#team-stats p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 20px 0 20px 0;
+}
+
+.team-stats__stats{
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    gap: 20px;
+}
+
+.team-stats__stats__item{
+    background-color: rgb(0, 0, 0, 50%);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.team-stats__stats__item h3{
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.team-stats__stats__item span{
+    font-size: 1.25rem;
+}
+
+.team-stats__details{
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    background-color: rgb(0, 0, 0, 50%);
+    width: 500px;
+    min-height: 384px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.team-stats__details__ranking h1{
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.icon__pilot{
+    background: #fff;
+    height: 32px;
+    width: 32px;
+    border-radius: 5px;
+}
+.ranking__pilot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ranking__pilot span{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: baseline;
+    gap: 6px;
+}
+.ranking__bar{
+    background-color: red;
+    width: 60%;
+    height: 15px;
+    border-radius: 50px;
+}
