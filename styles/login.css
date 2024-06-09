@@ -9,27 +9,19 @@
 body {
     background: rgb(12, 5, 133);
     background: linear-gradient(90deg, rgba(12, 5, 133, 1) 0%, rgba(14, 13, 237, 1) 10%, rgba(15, 21, 237, 1) 20%, rgba(27, 94, 238, 1) 49%, rgba(25, 88, 235, 1) 63%, rgba(5, 24, 208, 1) 95%, rgba(6, 1, 134, 1) 100%);
-}
-
-nav {
     font-family: "Poppins", sans-serif;
 }
 
 .nav-container {
     background-color: #252525;
     width: 100%;
-    height: 105px;
+    height: 80px;
 }
 
 
 .logo {
-    display: flex;
-    align-items: center;
-    height: 105px;
-}
-
-.logo img {
-    margin-top: 55px;
+    width: 180px;
+    height: 40px;
 }
 
 .container {
@@ -37,7 +29,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 80vh;
+    margin-top: 50px;
 }
 
 
@@ -90,6 +82,7 @@ form div {
     padding: 0 0 0 16px ;
     border: 2px solid #e4e4e5;
     font-family: "Poppins", sans-serif;
+    color: #fff;
 }
 
 .input-single button {

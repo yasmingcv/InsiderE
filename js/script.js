@@ -1,4 +1,8 @@
 window.onload = function() {
+    if (!localStorage.getItem("redirected")) {
+        window.location.href = "chooseYourTeam.html";
+        localStorage.setItem("redirected", "true");
+    }
     const urlParams = new URLSearchParams(window.location.search);
     const teamId = urlParams.get('teamId');
 
