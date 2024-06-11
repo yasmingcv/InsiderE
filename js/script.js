@@ -19,24 +19,23 @@ window.onload = function() {
                     const piloto2Container = document.getElementById('piloto2');
                     console.log(teamDetailsContainerImages);
                     teamDetailsContainerText.innerHTML = `
-                        <div style="background-image: url('${team.logo}'); height: 180px; width: 300px; background-size: contain; background-repeat: no-repeat;">
-                        </div>
+                        <img src="${team.logo}" style="width:300px;height:auto;">
                         <p>${team.description}</p>
                     `;
                     teamDetailsContainerImages.style.background = `${team.background}`;
                     piloto1Container.innerHTML = `
                         <div>
-                            <h3 class="pilotoNome">${team.piloto1Nome}</h3>
-                            <h1 class="pilotoSobrenome">${team.piloto1Sobrenome}</h1>
+                            <h3 class="pilotoNome">${team.piloto1.Nome}</h3>
+                            <h1 class="pilotoSobrenome">${team.piloto1.Sobrenome}</h1>
                         </div>
-                        <img class="imagem-piloto" src=${team.piloto1} alt="Logo do time">
+                        <img class="imagem-piloto" src=${team.piloto1.Foto} alt="Logo do time">
                     `;
                     piloto2Container.innerHTML = `
                             <div>
-                            <h3 class="pilotoNome">${team.piloto2Nome}</h3>
-                            <h1 class="pilotoSobrenome">${team.piloto2Sobrenome}</h1>
+                            <h3 class="pilotoNome">${team.piloto2.Nome}</h3>
+                            <h1 class="pilotoSobrenome">${team.piloto2.Sobrenome}</h1>
                         </div>
-                        <img class="imagem-piloto" src=${team.piloto2} alt="Logo do time">
+                        <img class="imagem-piloto" src=${team.piloto2.Foto} alt="Logo do time">
                     `;
                 }
             })
