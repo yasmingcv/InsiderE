@@ -3,6 +3,8 @@
     {
       "id": 0,
       "name": "ABT CUPRA FORMULA E TEAM",
+      "class": "ABT",
+      "color": "#04619F",
       "description": "A ABT CUPRA Formula E Team é uma colaboração entre a ABT Sportsline e a CUPRA, a marca esportiva da SEAT. A equipe é conhecida por sua paixão pelo automobilismo e seu compromisso com a inovação tecnológica, trazendo uma abordagem única e dinâmica para a Fórmula E.",
       "background": "linear-gradient(115deg, #fff 0 25%, #04619F 25%, #000000 100%)",
       "logo": "https://static-files.formula-e.pulselive.com/badges/c57e46c4-8163-44f6-9c0d-b74579d51000.svg",
@@ -60,6 +62,8 @@
     {
         "id": 1,
         "name": "Andretti Formula E",
+        "class": "Andretti",
+        "color": "#B82E1F",
         "description": "A Andretti Formula E é uma equipe de corridas que faz parte do prestigiado Andretti Autosport. Fundada por Michael Andretti, a equipe é conhecida por sua rica herança no automobilismo e por sua dedicação ao desenvolvimento e à competição na Fórmula E, destacando-se pela performance e inovação.",
         "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/0a33d76e-64e6-4823-b70b-27b79a48679c.svg",
@@ -117,6 +121,8 @@
     {
         "id": 2,
         "name": "Jaguar TCS Racing",
+        "class": "Jaguar",
+        "color": "#2C3E50",
         "description": "A Jaguar TCS Racing é a equipe de Fórmula E da Jaguar, uma marca de luxo britânica. Em parceria com a Tata Consultancy Services (TCS), a equipe foca em inovação e sustentabilidade, alinhando-se com os objetivos da Fórmula E de promover a mobilidade elétrica e sustentável, enquanto busca vitórias nas pistas.",
         "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/05dab754-2899-411b-9c4e-72311a36cc9c.svg",
@@ -174,6 +180,8 @@
     {
         "id": 3,
         "name": "Envision Racing",
+        "class": "Envision",
+        "color": "#166D3B",
         "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
         "background": "linear-gradient(115deg, #fff 0 25%, #000000 25%, #166D3B 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/c63aedad-a141-4ebc-9794-41a37909ef0c.svg",
@@ -231,6 +239,8 @@
     {
         "id": 4,
         "name": "Mahindra Racing",
+        "class": "Mahindra",
+        "color": "#B82E1F",
         "description": "A Mahindra Racing é uma das equipes pioneiras na Fórmula E, representando a Mahindra & Mahindra, um dos maiores conglomerados indianos. A equipe é conhecida por sua dedicação à inovação e à sustentabilidade no automobilismo elétrico, buscando constantemente se destacar nas competições.",
         "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/fa97d2e7-02ca-4983-a930-4fdaa245a852.svg",
@@ -288,6 +298,8 @@
     {
         "id": 5,
         "name": "Nissan Formula E Team",
+        "class": "Nissan",
+        "color": "#B82E1F",
         "description": "A Nissan Formula E Team é a representação da gigante automotiva Nissan na Fórmula E. A equipe traz a experiência e a inovação da Nissan em veículos elétricos para a competição, buscando avanços tecnológicos e desempenho superior nas corridas, refletindo o compromisso da marca com a mobilidade sustentável.",
         "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/6c04a435-8357-42f6-8360-5305d00050ee.svg",
@@ -345,6 +357,8 @@
     {
         "id": 6,
         "name": "TAG Heuer Porsche Formula E Team",
+        "class": "Porsche",
+        "color": "#B82E1F",
         "description": "A TAG Heuer Porsche Formula E Team é a equipe oficial da Porsche na Fórmula E, em parceria com a renomada marca de relógios TAG Heuer. A equipe combina a herança de alta performance da Porsche com a precisão e inovação da TAG Heuer, aspirando a grandes conquistas na série de corridas elétricas.",
         "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/feb6762c-ae66-4c8e-a892-f958d6f7e774.svg",
@@ -402,6 +416,8 @@
     {
         "id": 7,
         "name": "NEOM McLaren Formula E Team",
+        "class": "McLaren",
+        "color": "#EC9F05",
         "description": "A NEOM McLaren Formula E Team é uma parceria que une a excelência da McLaren Racing com os avanços tecnológicos e sustentáveis promovidos pelo projeto NEOM. A equipe está focada em se tornar uma das principais forças da Fórmula E, combinando tradição automobilística com inovação futurista.",
         "background": "linear-gradient(115deg, #fff 0 25%, #EC9F05 25%, #FF4E00 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/0176f3e2-1247-494d-9a8d-b0950437ee8f.svg",
@@ -459,6 +475,8 @@
     {
         "id": 8,
         "name": "Maserati MSG Racing",
+        "class": "Maserati",
+        "color": "#04619F",
         "description": "A Maserati MSG Racing é a equipe da Maserati na Fórmula E, trazendo o prestígio e a tradição da marca italiana para o automobilismo elétrico. A equipe combina a herança de luxo da Maserati com a busca por desempenho e inovação, fazendo uma forte entrada na série de corridas.",
         "background": "linear-gradient(115deg, #fff 0 25%, #04619F 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/19821c93-f115-41fb-af4f-80831a91afef.svg",
@@ -516,6 +534,8 @@
     {
         "id": 9,
         "name": "DS Penske",
+        "class": "DS",
+        "color": "#CC9934",
         "description": "A DS Penske é uma equipe resultante da união entre a DS Automobiles e a Penske Autosport. Esta parceria combina a experiência da DS em veículos elétricos e a tradição da Penske em competições, buscando consistentemente o sucesso nas corridas da Fórmula E através de inovação e excelência.",
         "background": "linear-gradient(115deg, #fff 0 25%, #CC9934 25%, #1E1D1B 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/e05ede6d-d065-497b-a298-85afeeeb2ab1.svg",
@@ -573,20 +593,22 @@
     {
         "id": 10,
         "name": "ERT Formula E Team",
+        "class": "ERT",
+        "color": "#2C3E50",
         "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
         "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
         "logo": "https://static-files.formula-e.pulselive.com/badges/5ac8091a-b415-4abb-a7ef-fb5511e545d5.svg",
         "piloto1": {
             "Foto": "images/ert/piloto1.png",
-            "Nome": "SÉRGIO",
-            "Sobrenome": "SETTE CÂMARA",
+            "Nome": "SETTE",
+            "Sobrenome": "CÂMARA",
             "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
             "Pontos": 11,
             "Podios": 0,
             "Vitorias": 0
         },
         "piloto2": {
-            "Foto": "images/ert/piloto1.png",
+            "Foto": "images/ert/piloto2.png",
             "Nome": "DAN",
             "Sobrenome": "DTICKTUM",
             "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",

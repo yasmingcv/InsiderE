@@ -223,12 +223,14 @@
 
 .imagem1 p{
     margin-top: 60px;
+    text-transform: uppercase;
     margin-left: -100px;
-}
-
+    }
+    
 .imagem2 p{
     margin-top: 60px;
-    margin-right: -50px;
+    text-transform: uppercase;
+    margin-right: -80px;
 }
 
 
@@ -256,4 +258,59 @@
     left: 0;
     width: 50%;
     height: 1px;
+}
+
+.ABT.desempenho::before,
+.ABT.desempenho::after {
+    background-color: #04619F;
+}
+
+.Andretti.desempenho::before,
+.Andretti.desempenho::after {
+    background-color: #B82E1F;
+}
+
+.Jaguar.desempenho::before,
+.Jaguar.desempenho::after {
+    background-color: #2C3E50;
+}
+
+.Envision.desempenho::before,
+.Envision.desempenho::after {
+    background-color: #166D3B;
+}
+
+.Mahindra.desempenho::before,
+.Mahindra.desempenho::after {
+    background-color: #B82E1F;
+}
+
+.Nissan.desempenho::before,
+.Nissan.desempenho::after {
+    background-color: #B82E1F;
+}
+
+.Porsche.desempenho::before,
+.Porsche.desempenho::after {
+    background-color: #B82E1F;
+}
+
+.McLaren.desempenho::before,
+.McLaren.desempenho::after {
+    background-color: #EC9F05;
+}
+
+.Maserati.desempenho::before,
+.Maserati.desempenho::after {
+    background-color: #04619F;
+}
+
+.DS.desempenho::before,
+.DS.desempenho::after {
+    background-color: #CC9934;
+}
+
+.ERT.desempenho::before,
+.ERT.desempenho::after {
+    background-color: #2C3E50;
 }
