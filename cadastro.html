@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/login.css">
-    <title>Mahindra Racing</title>
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <title>InsiderE</title>
 </head>
 
 <body>
     <header>
+<<<<<<< HEAD
         <nav class="nav-container">
             <div class="logo">
                 <img src="./images/logo_branca.png" alt="Logo InsiderE">
             </div>
         </nav>
+=======
+        <img id="logo-header-team" src="images/logo_branca.png" alt="">
+>>>>>>> d83402961b6c54a5796b5d57f19bf5d1567be890
     </header>
-
 
     <section class="form-container">
         <div class="container">
@@ -29,14 +34,15 @@
                     </div>
                     <div class="input-single">
                         <label for="password">Senha</label>
-                        <input type="password" id="password" placeholder="informe sua senha">
+                        <input type="password" id="password" placeholder="Informe sua senha">
                     </div>
                     <div class="input-single">
                         <label for="password">Confirmar senha</label>
-                        <input type="password" id="password" placeholder="informe sua senha">
+                        <input type="password" id="confirmPassword" placeholder="Informe sua senha">
                     </div>
+                    <p id="message"></p>
                     <div class="input-single">
-                        <button>Criar conta</button>
+                        <button id="buttonRegister">Criar conta</button>
                     </div>
                     <div class="input-single btn-cadastro">
                         <p>Ja possui conta?</p>
@@ -47,5 +53,5 @@
         </div>
     </section>
 </body>
-
+<script src="js/cadastro.js"></script>
 </html>
