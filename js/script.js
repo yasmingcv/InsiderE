@@ -17,7 +17,6 @@ window.onload = function() {
                     const teamDetailsContainerImages = document.getElementById('team-details-images');
                     const piloto1Container = document.getElementById('piloto1');
                     const piloto2Container = document.getElementById('piloto2');
-                    console.log(teamDetailsContainerImages);
                     teamDetailsContainerText.innerHTML = `
                         <img src="${team.logo}" style="width:300px;height:auto;">
                         <p>${team.description}</p>
