@@ -75,9 +75,9 @@
     gap: 20px;
     /* min-height: 100vh;
     height: auto; */
-    background: linear-gradient(0deg, #fff 0 25%, #04619F 25%, #000000 150%);
     width: 100%;
     color: #fff;
+    padding: 5%;
 }
 
 #team-stats h3{

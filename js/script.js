@@ -66,8 +66,8 @@ window.onload = function () {
                     alterarCores(team);
 
                     const teamStatsContainer = document.getElementById('team-stats')
-                    //teamStatsContainer.style.background = team.background.replace(/linear-gradient\(\d+deg/, `linear-gradient(0deg`)
-
+                    teamStatsContainer.style.background = team.color
+                    
                     const velocidade = document.getElementById('velocidade')
                     velocidade.innerHTML = `${team.statsCurrentSeason.averageSpeed}<span>km/h</span>`
 
@@ -91,7 +91,7 @@ window.onload = function () {
                             <span>
                                 <img class="icon__pilot" src=${pilot.picture}></img>
                                 <p>${pilot.pilot}</p>
-                                <div class="ranking__bar" style= "width: ${widthPercentage}%;"></div>
+                                <div class="ranking__bar" style= "width: ${widthPercentage}%; background: ${team.color};"></div>
                             </span>
                             <p>${pilot.victories}</p>
                         </div>
