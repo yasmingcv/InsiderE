@@ -118,6 +118,19 @@
 }
 
 .team-stats__details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#containerImg{
+    width: 55%;
+    height: 70%;
+    border-radius: 20px;
+}
+
+.team-stats__details__ranking{
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-size: 1rem;
@@ -136,6 +149,7 @@
     background: #fff;
     height: 32px;
     width: 32px;
+    object-fit: cover;
     border-radius: 5px;
 }
 .ranking__pilot{

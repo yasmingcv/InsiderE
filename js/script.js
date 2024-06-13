@@ -1,3 +1,9 @@
+var images = [
+    "https://p.turbosquid.com/ts-thumb/9C/eHVTPS/my/seq/jpg/1701968505/1920x1080/turn_fit_q99/1514931e94580e28685b90a5206dd3ebdf4ceaf7/seq-1.jpg",
+    "https://p.turbosquid.com/ts-thumb/9C/eHVTPS/my/seq/jpg/1701968505/1920x1080/turn_fit_q99/1514931e94580e28685b90a5206dd3ebdf4ceaf7/seq-19.jpg"]
+let indexSlide = 0
+const time = 3000
+
 window.onload = function () {
     if (!localStorage.getItem("redirected")) {
         window.location.href = "chooseYourTeam.html";
@@ -35,7 +41,7 @@ window.onload = function () {
                             <h1 class="pilotoSobrenome">${team.piloto2.Sobrenome}</h1>
                         </div>
                         <img class="imagem-piloto" src=${team.piloto2.Foto} alt="Logo do time">
-                    `;      
+                    `;
                     //Secao de desempenho do piloto
                     const desempenhoPiloto1 = document.getElementById('desempenho-piloto-1');
                     const desempenhoPiloto2 = document.getElementById('desempenho-piloto-2');
@@ -67,7 +73,7 @@ window.onload = function () {
 
                     const teamStatsContainer = document.getElementById('team-stats')
                     teamStatsContainer.style.background = team.color
-                    
+
                     const velocidade = document.getElementById('velocidade')
                     velocidade.innerHTML = `${team.statsCurrentSeason.averageSpeed}<span>km/h</span>`
 
@@ -97,6 +103,8 @@ window.onload = function () {
                         </div>
                         `
                     })
+
+                    images = team.imgCars
                 }
             })
             .catch(error => console.error('Error fetching the JSON:', error));
@@ -122,3 +130,24 @@ function alterarCores(team) {
     const bordaEspecial = document.querySelector('.desempenho');
     bordaEspecial.classList.add(`${team.class}`);
 }
+
+const slideShow = () => {
+    const imageContainer = document.getElementById('containerImg')
+    imageContainer.style.opacity = '0'
+
+    setTimeout(() => {
+        imageContainer.style.transition = 'opacity 1s'
+        imageContainer.style.opacity = '1'
+        imageContainer.src = images[indexSlide]
+    }, 350)
+
+    indexSlide++
+
+    if (indexSlide == images.length) {
+        indexSlide = 0
+    }
+
+    setTimeout(slideShow, time)
+}
+
+slideShow()
