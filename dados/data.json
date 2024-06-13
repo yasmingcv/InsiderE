@@ -32,600 +32,666 @@
         "pilotRanking": [
           {
             "pilot": "Robin Frijns",
-            "victories": 4
+            "victories": 4,
+            "picture": "https://cdn-2.motorsport.com/images/mgl/YW7oBmyY/s8/robin-frijns-envision-racing.jpg"
           },
           {
             "pilot": "Nico Müller",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlhZs1FDSwG5KTnsfACLJlRWUnZUgoZSNiSg&s"
           },
           {
             "pilot": "René Rast",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYlcDY63xJxG9-BO7kgGOJ481v5rM2u-PlbA&s"
           },
           {
             "pilot": "Kelvin van der Linde",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlSOo_b_k6QwH5kJG__gHrMfkBphF5VY1o7w&s"
           },
           {
             "pilot": "Oliver Turvey",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdzXLzGE2ELIx2-DQP-xqKfwOa0C8nfStIHg&s"
           },
           {
             "pilot": "Daniel Abt",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://s2-ge.glbimg.com/FlfE3RIOoorV_i0EZjtasnyEGU0=/0x0:1280x903/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2020/k/T/pMmf9eSietdi7lgBtKHQ/daniel-abt.jpg"
           }
         ]
       }
     },
     {
-        "id": 1,
-        "name": "Andretti Formula E",
-        "description": "A Andretti Formula E é uma equipe de corridas que faz parte do prestigiado Andretti Autosport. Fundada por Michael Andretti, a equipe é conhecida por sua rica herança no automobilismo e por sua dedicação ao desenvolvimento e à competição na Fórmula E, destacando-se pela performance e inovação.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/0a33d76e-64e6-4823-b70b-27b79a48679c.svg",
-        "piloto1": {
-            "Foto": "images/andretti/piloto1.png",
-            "Nome": "Jake",
-            "Sobrenome": "Dennis",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
-            "Pontos": 113,
-            "Podios": 4,
-            "Vitorias": 1
-        },
-        "piloto2": {
-            "Foto": "images/andretti/piloto2.png",
-            "Nome": "NORMAN",
-            "Sobrenome": "NATO",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
-            "Pontos": 40,
-            "Podios": 1,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 285,
-            "averageAcceleration": 3.0,
-            "victories": 18,
-            "probabilityOfVictory": 80,
-            "pilotRanking": [
+      "id": 1,
+      "name": "Andretti Formula E",
+      "description": "A Andretti Formula E é uma equipe de corridas que faz parte do prestigiado Andretti Autosport. Fundada por Michael Andretti, a equipe é conhecida por sua rica herança no automobilismo e por sua dedicação ao desenvolvimento e à competição na Fórmula E, destacando-se pela performance e inovação.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/0a33d76e-64e6-4823-b70b-27b79a48679c.svg",
+      "piloto1": {
+        "Foto": "images/andretti/piloto1.png",
+        "Nome": "Jake",
+        "Sobrenome": "Dennis",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 113,
+        "Podios": 4,
+        "Vitorias": 1
+      },
+      "piloto2": {
+        "Foto": "images/andretti/piloto2.png",
+        "Nome": "NORMAN",
+        "Sobrenome": "NATO",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 40,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.0,
+        "victories": 18,
+        "probabilityOfVictory": 80,
+        "pilotRanking": [
           {
             "pilot": "Jake Dennis",
-            "victories": 5
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDZMZaKQFRA70iIsr4nvJGkvwx2QRg_tYCzw&s"
           },
           {
             "pilot": "Andre Lotterer",
-            "victories": 4
+            "victories": 4,
+            "picture": "https://naspistas.com/wp-content/uploads/2023/09/andre-lotterer-formula-e.jpg"
           },
           {
             "pilot": "Oliver Askew",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdAtT6-zCg1YV-ZePgSvAkjW5pAw2fJzxQFg&s"
           },
           {
             "pilot": "Maximilian Günther",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSko4OujDUpDAuSkajDONpTg9-Tx3xD2S3DTw&s"
           },
           {
             "pilot": "Tom Blomqvist",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStmuAiRcNF3wRBZJw-5tcvzH_nVxdMHH-NiQ&s"
           },
           {
             "pilot": "Simona de Silvestro",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://pbs.twimg.com/profile_images/1542163310438752257/teUICNeq_400x400.jpg"
           }
         ]
-        }
+      }
     },
     {
-        "id": 2,
-        "name": "Jaguar TCS Racing",
-        "description": "A Jaguar TCS Racing é a equipe de Fórmula E da Jaguar, uma marca de luxo britânica. Em parceria com a Tata Consultancy Services (TCS), a equipe foca em inovação e sustentabilidade, alinhando-se com os objetivos da Fórmula E de promover a mobilidade elétrica e sustentável, enquanto busca vitórias nas pistas.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/05dab754-2899-411b-9c4e-72311a36cc9c.svg",
-        "piloto1": {
-            "Foto": "images/jaguar/piloto1.png",
-            "Nome": "Mitch",
-            "Sobrenome": "Evans",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
-            "Pontos": 132,
-            "Podios": 2,
-            "Vitorias": 3
-        },
-        "piloto2": {
-            "Foto": "images/jaguar/piloto2.png",
-            "Nome": "Nick",
-            "Sobrenome": "Cassidy",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
-            "Pontos": 167,
-            "Podios": 8,
-            "Vitorias": 2
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 290,
-            "averageAcceleration": 3.1,
-            "victories": 20,
-            "probabilityOfVictory": 82,
-            "pilotRanking": [
+      "id": 2,
+      "name": "Jaguar TCS Racing",
+      "description": "A Jaguar TCS Racing é a equipe de Fórmula E da Jaguar, uma marca de luxo britânica. Em parceria com a Tata Consultancy Services (TCS), a equipe foca em inovação e sustentabilidade, alinhando-se com os objetivos da Fórmula E de promover a mobilidade elétrica e sustentável, enquanto busca vitórias nas pistas.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/05dab754-2899-411b-9c4e-72311a36cc9c.svg",
+      "piloto1": {
+        "Foto": "images/jaguar/piloto1.png",
+        "Nome": "Mitch",
+        "Sobrenome": "Evans",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
+        "Pontos": 132,
+        "Podios": 2,
+        "Vitorias": 3
+      },
+      "piloto2": {
+        "Foto": "images/jaguar/piloto2.png",
+        "Nome": "Nick",
+        "Sobrenome": "Cassidy",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
+        "Pontos": 167,
+        "Podios": 8,
+        "Vitorias": 2
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.1,
+        "victories": 20,
+        "probabilityOfVictory": 82,
+        "pilotRanking": [
           {
             "pilot": "Mitch Evans",
-            "victories": 7
+            "victories": 7,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfw5jMRllb2RoSAzlaD7X7JTANVbp56mMJXQ&s"
           },
           {
             "pilot": "Sam Bird",
-            "victories": 5
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1UADlEoGpQAV5uZ7yk6BfD0oPSxMg7iKLjw&s"
           },
           {
             "pilot": "Tom Dillmann",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://pbs.twimg.com/profile_images/1613711581887565824/Qo7AWMT5_400x400.jpg"
           },
           {
             "pilot": "Nelson Piquet Jr.",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://cdn-6.motorsport.com/images/mgl/01Jzq4Q2/s8/formula-e-buenos-aires-eprix-2017-nelson-piquet-jr-nextev-tcr-formula-e-team.jpg"
           },
           {
             "pilot": "Adam Carroll",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2H8AaarmOHdjI_UOlE0ifwHQUOEqNa2WzQ&s"
           },
           {
             "pilot": "James Calado",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://cdn.ferrari.com/cms/network/media/img/resize/6459210513b86f00229a6cb9-james-calado-ferrari-499p-por?width=768&height=1024"
           }
         ]
-        }
+      }
     },
     {
-        "id": 3,
-        "name": "Envision Racing",
-        "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #000000 25%, #166D3B 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/c63aedad-a141-4ebc-9794-41a37909ef0c.svg",
-        "piloto1": {
-            "Foto": "images/envision/piloto1.png",
-            "Nome": "ROBIN",
-            "Sobrenome": "FRIJNS",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
-            "Pontos": 23,
-            "Podios": 1,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/envision/piloto2.png",
-            "Nome": "Sebastien",
-            "Sobrenome": "Buemi",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
-            "Pontos": 24,
-            "Podios": 1,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 280,
-            "averageAcceleration": 3.0,
-            "victories": 16,
-            "probabilityOfVictory": 78,
-            "pilotRanking": [
+      "id": 3,
+      "name": "Envision Racing",
+      "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #000000 25%, #166D3B 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/c63aedad-a141-4ebc-9794-41a37909ef0c.svg",
+      "piloto1": {
+        "Foto": "images/envision/piloto1.png",
+        "Nome": "ROBIN",
+        "Sobrenome": "FRIJNS",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
+        "Pontos": 23,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/envision/piloto2.png",
+        "Nome": "Sebastien",
+        "Sobrenome": "Buemi",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
+        "Pontos": 24,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 3.0,
+        "victories": 16,
+        "probabilityOfVictory": 78,
+        "pilotRanking": [
           {
             "pilot": "Robin Frijns",
-            "victories": 5
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVEDlaQXr2tKjuIa81VurcirPK8ztQp4hwmw&s"
           },
           {
             "pilot": "Nick Cassidy",
-            "victories": 4
+            "victories": 4,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlirx6WI03AfzZ5Nt0v6fmQJyr5WfVRhpWpA&s"
           },
           {
             "pilot": "Sam Bird",
-            "victories": 3
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTtVzu3A_tmvS3_liB9daf9pAqm_n-seAIMQ&s"
           },
           {
             "pilot": "Jake Dennis",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LBJywO85mb53ORhYmaKEdTWT88yqAa_VFg&s"
           },
           {
             "pilot": "António Félix da Costa",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsyOCTigfCvsJOs07avXEX0OvEdoLRiNu4Yw&s"
           },
           {
             "pilot": "Mitch Evans",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://cdn-3.motorsport.com/images/mgl/6zQeAklY/s800/mitch-evans-jaguar-racing.jpg"
           }
         ]
-        }
+      }
     },
     {
-        "id": 4,
-        "name": "Mahindra Racing",
-        "description": "A Mahindra Racing é uma das equipes pioneiras na Fórmula E, representando a Mahindra & Mahindra, um dos maiores conglomerados indianos. A equipe é conhecida por sua dedicação à inovação e à sustentabilidade no automobilismo elétrico, buscando constantemente se destacar nas competições.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/fa97d2e7-02ca-4983-a930-4fdaa245a852.svg",
-        "piloto1": {
-            "Foto": "images/mahindra/piloto1.png",
-            "Nome": "NYCK",
-            "Sobrenome": "De Vries",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
-            "Pontos": 6,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/mahindra/piloto2.png",
-            "Nome": "Edoardo",
-            "Sobrenome": "Mortara",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
-            "Pontos": 7,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 280,
-            "averageAcceleration": 2.8,
-            "victories": 17,
-            "probabilityOfVictory": 79,
-            "pilotRanking": [
-            {
-              "pilot": "Paul Aron",
-              "victories": 4
-            },
-            {
-              "pilot": "Taylor B.",
-              "victories": 3
-            },
-            {
-              "pilot": "Sam Bird",
-              "victories": 3
-            },
-            {
-              "pilot": "Sebastien",
-              "victories": 3
-            },
-            {
-              "pilot": "Nick C.",
-              "victories": 2
-            },
-            {
-              "pilot": "Jehan D.",
-              "victories": 2
-            }
+      "id": 4,
+      "name": "Mahindra Racing",
+      "description": "A Mahindra Racing é uma das equipes pioneiras na Fórmula E, representando a Mahindra & Mahindra, um dos maiores conglomerados indianos. A equipe é conhecida por sua dedicação à inovação e à sustentabilidade no automobilismo elétrico, buscando constantemente se destacar nas competições.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/fa97d2e7-02ca-4983-a930-4fdaa245a852.svg",
+      "piloto1": {
+        "Foto": "images/mahindra/piloto1.png",
+        "Nome": "NYCK",
+        "Sobrenome": "De Vries",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
+        "Pontos": 6,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/mahindra/piloto2.png",
+        "Nome": "Edoardo",
+        "Sobrenome": "Mortara",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
+        "Pontos": 7,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 2.8,
+        "victories": 17,
+        "probabilityOfVictory": 79,
+        "pilotRanking": [
+          {
+            "pilot": "Paul Aron",
+            "victories": 4,
+            "picture": "https://res.cloudinary.com/prod-f2f3/ar_16:9,c_fill,dpr_1.0,f_auto,g_auto,h_563,w_1000/v1/f3/articles/2023/08_August/GettyImages-1579997459_1"
+          },
+          {
+            "pilot": "Taylor B.",
+            "victories": 3,
+            "picture": "https://resources.formula-e.pulselive.com/photo-resources/2024/04/30/4c16c87a-dc7a-49cd-b87e-1e706a014342/a55fb7te.jpg?width=1200&height=630"
+          },
+          {
+            "pilot": "Sam Bird",
+            "victories": 3,
+            "picture": "https://c8.alamy.com/comp/EB1FP7/sam-bird-gbr-virgin-racing-podium-celebration-fia-formula-e-in-putrajaya-EB1FP7.jpg"
+          },
+          {
+            "pilot": "Sebastien",
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0JrLPiIfWstzv_KqHVXHLWjmbJ1-xDbUlfw&s"
+          },
+          {
+            "pilot": "Nick C.",
+            "victories": 2,
+            "picture": "https://cdn-6.motorsport.com/images/mgl/6nM7N7lY/s800/formula-e-hong-kong-eprix-2017-nick-heidfeld-mahindra-racing.jpg"
+          },
+          {
+            "pilot": "Jehan D.",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-1QDPF4Qzhhhd4t5krhj0nmQwfJ93FbyLYQ&s"
+          }
         ]
-        }
+      }
     },
     {
-        "id": 5,
-        "name": "Nissan Formula E Team",
-        "description": "A Nissan Formula E Team é a representação da gigante automotiva Nissan na Fórmula E. A equipe traz a experiência e a inovação da Nissan em veículos elétricos para a competição, buscando avanços tecnológicos e desempenho superior nas corridas, refletindo o compromisso da marca com a mobilidade sustentável.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/6c04a435-8357-42f6-8360-5305d00050ee.svg",
-        "piloto1": {
-            "Foto": "images/nissan/piloto1.png",
-            "Nome": "Sacha",
-            "Sobrenome": "Fenestraz",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
-            "Pontos": 26,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/nissan/piloto2.png",
-            "Nome": "Oliver",
-            "Sobrenome": "Rowland",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
-            "Pontos": 131,
-            "Podios": 6,
-            "Vitorias": 1
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 285,
-            "averageAcceleration": 3.2,
-            "victories": 19,
-            "probabilityOfVictory": 81,
-            "pilotRanking": [
+      "id": 5,
+      "name": "Nissan Formula E Team",
+      "description": "A Nissan Formula E Team é a representação da gigante automotiva Nissan na Fórmula E. A equipe traz a experiência e a inovação da Nissan em veículos elétricos para a competição, buscando avanços tecnológicos e desempenho superior nas corridas, refletindo o compromisso da marca com a mobilidade sustentável.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/6c04a435-8357-42f6-8360-5305d00050ee.svg",
+      "piloto1": {
+        "Foto": "images/nissan/piloto1.png",
+        "Nome": "Sacha",
+        "Sobrenome": "Fenestraz",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 26,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/nissan/piloto2.png",
+        "Nome": "Oliver",
+        "Sobrenome": "Rowland",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 131,
+        "Podios": 6,
+        "Vitorias": 1
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.2,
+        "victories": 19,
+        "probabilityOfVictory": 81,
+        "pilotRanking": [
           {
             "pilot": "Sebastian Buemi",
-            "victories": 6
+            "victories": 6,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKtjhsxhDWqPRwe7KiURnGxdnz4Et1LH0ERA&s"
           },
           {
             "pilot": "Oliver Rowland",
-            "victories": 5
+            "victories": 5,
+            "picture": "https://static-files.formula-e.pulselive.com/drivers/84467676-4d5d-4c97-ae07-0b7520bb95ea/right/large/00098f8a-69be-4f84-a7ac-baedcc5f9e9c.png"
           },
           {
             "pilot": "Jean-Éric Vergne",
-            "victories": 4
+            "victories": 4,
+            "picture": "https://cdn-2.motorsport.com/images/mgl/Y998rGXY/s8/jean-eric-vergne-ds-penske.jpg"
           },
           {
             "pilot": "Alexander Sims",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX2nN3NlWwdwzo8M3vyNOk4RCqhrZkMQFhLg&s"
           },
           {
             "pilot": "Stoffel Vandoorne",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://static-files.formula-e.pulselive.com/drivers/84467676-4d5d-4c97-ae07-0b7520bb95ea/right/large/3f4d9ccc-0453-410c-8542-225bd2ebf280.png"
           },
           {
             "pilot": "Lucas di Grassi",
-            "victories": 1
+            "victories": 1,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfLpz-OZn7DA16CmMEn_WCogim_0EpHg_0Iw&s"
           }
         ]
-        }
+      }
     },
     {
-        "id": 6,
-        "name": "TAG Heuer Porsche Formula E Team",
-        "description": "A TAG Heuer Porsche Formula E Team é a equipe oficial da Porsche na Fórmula E, em parceria com a renomada marca de relógios TAG Heuer. A equipe combina a herança de alta performance da Porsche com a precisão e inovação da TAG Heuer, aspirando a grandes conquistas na série de corridas elétricas.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/feb6762c-ae66-4c8e-a892-f958d6f7e774.svg",
-        "piloto1": {
-            "Foto": "images/porshe/piloto1.png",
-            "Nome": "Antonio",
-            "Sobrenome": "Felix da Costa",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/pt.svg",
-            "Pontos": 84,
-            "Podios": 2,
-            "Vitorias": 2
-        },
-        "piloto2": {
-            "Foto": "images/porshe/piloto2.png",
-            "Nome": "Pascal",
-            "Sobrenome": "Wehrlein",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
-            "Pontos": 142,
-            "Podios": 3,
-            "Vitorias": 2
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 290,
-            "averageAcceleration": 3.3,
-            "victories": 21,
-            "probabilityOfVictory": 83,
-            "pilotRanking": [
-              {
-                "pilot": "Pascal Wehrlein",
-                "victories": 7
-              },
-              {
-                "pilot": "André Lotterer",
-                "victories": 6
-              },
-              {
-                "pilot": "Jean-Éric Vergne",
-                "victories": 3
-              },
-              {
-                "pilot": "Oliver Rowland",
-                "victories": 2
-              },
-              {
-                "pilot": "Maximilian Günther",
-                "victories": 2
-              },
-              {
-                "pilot": "Nyck de Vries",
-                "victories": 1
-              }
-            ]
-        }
-    },
-    {
-        "id": 7,
-        "name": "NEOM McLaren Formula E Team",
-        "description": "A NEOM McLaren Formula E Team é uma parceria que une a excelência da McLaren Racing com os avanços tecnológicos e sustentáveis promovidos pelo projeto NEOM. A equipe está focada em se tornar uma das principais forças da Fórmula E, combinando tradição automobilística com inovação futurista.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #EC9F05 25%, #FF4E00 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/0176f3e2-1247-494d-9a8d-b0950437ee8f.svg",
-        "piloto1": {
-            "Foto": "images/mclaren/piloto1.png",
-            "Nome": "Jake",
-            "Sobrenome": "Hughes",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
-            "Pontos": 46,
-            "Podios": 1,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/mclaren/piloto2.png",
-            "Nome": "SAM",
-            "Sobrenome": "BIRD",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
-            "Pontos": 38,
-            "Podios": 1,
-            "Vitorias": 1
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 295,
-            "averageAcceleration": 3.4,
-            "victories": 22,
-            "probabilityOfVictory": 85,
-            "pilotRanking": [
-          {
-            "pilot": "Stoffel Vandoorne",
-            "victories": 8
-          },
-          {
-            "pilot": "Nyck de Vries",
-            "victories": 6
-          },
-          {
-            "pilot": "Sébastien Buemi",
-            "victories": 3
-          },
-          {
-            "pilot": "Alexander Sims",
-            "victories": 2
-          },
-          {
-            "pilot": "Lucas di Grassi",
-            "victories": 2
-          },
-          {
-            "pilot": "Norman Nato",
-            "victories": 1
-          }
-        ]
-        }
-    },
-    {
-        "id": 8,
-        "name": "Maserati MSG Racing",
-        "description": "A Maserati MSG Racing é a equipe da Maserati na Fórmula E, trazendo o prestígio e a tradição da marca italiana para o automobilismo elétrico. A equipe combina a herança de luxo da Maserati com a busca por desempenho e inovação, fazendo uma forte entrada na série de corridas.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #04619F 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/19821c93-f115-41fb-af4f-80831a91afef.svg",
-        "piloto1": {
-            "Foto": "images/ds/piloto1.png",
-            "Nome": "Maximilian",
-            "Sobrenome": "Guenther",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
-            "Pontos": 69,
-            "Podios": 2,
-            "Vitorias": 1
-        },
-        "piloto2": {
-            "Foto": "images/ds/piloto2.png",
-            "Nome": "JEHAN",
-            "Sobrenome": "DARUVALA",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/in.svg",
-            "Pontos": 8,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 285,
-            "averageAcceleration": 3.2,
-            "victories": 18,
-            "probabilityOfVictory": 80,
-            "pilotRanking": [
-          {
-            "pilot": "Lucas di Grassi",
-            "victories": 5
-          },
-          {
-            "pilot": "Jean-Éric Vergne",
-            "victories": 4
-          },
-          {
-            "pilot": "Mitch Evans",
-            "victories": 3
-          },
-          {
-            "pilot": "Stoffel Vandoorne",
-            "victories": 2
-          },
+      "id": 6,
+      "name": "TAG Heuer Porsche Formula E Team",
+      "description": "A TAG Heuer Porsche Formula E Team é a equipe oficial da Porsche na Fórmula E, em parceria com a renomada marca de relógios TAG Heuer. A equipe combina a herança de alta performance da Porsche com a precisão e inovação da TAG Heuer, aspirando a grandes conquistas na série de corridas elétricas.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #B82E1F 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/feb6762c-ae66-4c8e-a892-f958d6f7e774.svg",
+      "piloto1": {
+        "Foto": "images/porshe/piloto1.png",
+        "Nome": "Antonio",
+        "Sobrenome": "Felix da Costa",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/pt.svg",
+        "Pontos": 84,
+        "Podios": 2,
+        "Vitorias": 2
+      },
+      "piloto2": {
+        "Foto": "images/porshe/piloto2.png",
+        "Nome": "Pascal",
+        "Sobrenome": "Wehrlein",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
+        "Pontos": 142,
+        "Podios": 3,
+        "Vitorias": 2
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.3,
+        "victories": 21,
+        "probabilityOfVictory": 83,
+        "pilotRanking": [
           {
             "pilot": "Pascal Wehrlein",
-            "victories": 2
-          },
-          {
-            "pilot": "Oliver Rowland",
-            "victories": 2
-          }
-        ]
-        }
-    },
-    {
-        "id": 9,
-        "name": "DS Penske",
-        "description": "A DS Penske é uma equipe resultante da união entre a DS Automobiles e a Penske Autosport. Esta parceria combina a experiência da DS em veículos elétricos e a tradição da Penske em competições, buscando consistentemente o sucesso nas corridas da Fórmula E através de inovação e excelência.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #CC9934 25%, #1E1D1B 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/e05ede6d-d065-497b-a298-85afeeeb2ab1.svg",
-        "piloto1": {
-            "Foto": "images/ds/piloto1.png",
-            "Nome": "Stoffel",
-            "Sobrenome": "Vandoorne",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/be.svg",
-            "Pontos": 53,
-            "Podios": 1,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/ds/piloto2.png",
-            "Nome": "Jean-Eric",
-            "Sobrenome": "Vergne",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
-            "Pontos": 101,
-            "Podios": 2,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 290,
-            "averageAcceleration": 3.3,
-            "victories": 20,
-            "probabilityOfVictory": 82,
-            "pilotRanking": [
-          {
-            "pilot": "Mitch Evans",
-            "victories": 6
-          },
-          {
-            "pilot": "Jean-Éric Vergne",
-            "victories": 5
-          },
-          {
-            "pilot": "Stoffel Vandoorne",
-            "victories": 3
-          },
-          {
-            "pilot": "Pascal Wehrlein",
-            "victories": 2
+            "victories": 7,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3qY3zukS7IwzCa1NKpdYfMoH-uW1MOBGyDg&s"
           },
           {
             "pilot": "André Lotterer",
-            "victories": 2
+            "victories": 6,
+            "picture": "https://pbs.twimg.com/profile_images/1665624102839648258/V7lghmNH_400x400.jpg"
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 3,
+            "picture": "https://www.blackbookmotorsport.com/wp-content/uploads/2023/12/Jean-Eric-Vergne.jpg"
           },
           {
             "pilot": "Oliver Rowland",
-            "victories": 2
+            "victories": 2,
+            "picture": "https://res.cloudinary.com/prod-f2f3/image/upload/v1583156929/f2/global/drivers/Legacy/_X0W9210.jpg"
+          },
+          {
+            "pilot": "Maximilian Günther",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTCspUfFM6UV0Cai32TpPsJrfYfCXHmQu41g&s"
+          },
+          {
+            "pilot": "Nyck de Vries",
+            "victories": 1,
+            "picture": "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/11/20/de-vries-1h7qx770nondt.jpg"
           }
         ]
-        }
+      }
     },
     {
-        "id": 10,
-        "name": "ERT Formula E Team",
-        "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
-        "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
-        "logo": "https://static-files.formula-e.pulselive.com/badges/5ac8091a-b415-4abb-a7ef-fb5511e545d5.svg",
-        "piloto1": {
-            "Foto": "images/ert/piloto1.png",
-            "Nome": "SÉRGIO",
-            "Sobrenome": "SETTE CÂMARA",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
-            "Pontos": 11,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "piloto2": {
-            "Foto": "images/ert/piloto1.png",
-            "Nome": "DAN",
-            "Sobrenome": "DTICKTUM",
-            "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
-            "Pontos": 12,
-            "Podios": 0,
-            "Vitorias": 0
-        },
-        "statsCurrentSeason": {
-            "averageSpeed": 280,
-            "averageAcceleration": 3.1,
-            "victories": 17,
-            "probabilityOfVictory": 79,
-            "pilotRanking": [
-              {
-                "pilot": "Sam Bird",
-                "victories": 5
-              },
-              {
-                "pilot": "Mitch Evans",
-                "victories": 4
-              },
-              {
-                "pilot": "Jean-Éric Vergne",
-                "victories": 3
-              },
-              {
-                "pilot": "Pascal Wehrlein",
-                "victories": 2
-              },
-              {
-                "pilot": "Stoffel Vandoorne",
-                "victories": 2
-              },
-              {
-                "pilot": "Oliver Rowland",
-                "victories": 1
-              }
-            ]
-        }
+      "id": 7,
+      "name": "NEOM McLaren Formula E Team",
+      "description": "A NEOM McLaren Formula E Team é uma parceria que une a excelência da McLaren Racing com os avanços tecnológicos e sustentáveis promovidos pelo projeto NEOM. A equipe está focada em se tornar uma das principais forças da Fórmula E, combinando tradição automobilística com inovação futurista.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #EC9F05 25%, #FF4E00 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/0176f3e2-1247-494d-9a8d-b0950437ee8f.svg",
+      "piloto1": {
+        "Foto": "images/mclaren/piloto1.png",
+        "Nome": "Jake",
+        "Sobrenome": "Hughes",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 46,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/mclaren/piloto2.png",
+        "Nome": "SAM",
+        "Sobrenome": "BIRD",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 38,
+        "Podios": 1,
+        "Vitorias": 1
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 295,
+        "averageAcceleration": 3.4,
+        "victories": 22,
+        "probabilityOfVictory": 85,
+        "pilotRanking": [
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 8,
+            "picture": "https://cdn-9.motorsport.com/images/amp/6b7kQLj0/s300/stoffel-vandoorne-resreve-driv.jpg"
+          },
+          {
+            "pilot": "Nyck de Vries",
+            "victories": 6,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-bRvZ_bKs9wRLn4pLGWZ2nm_ISCQo8DSU2Q&s"
+          },
+          {
+            "pilot": "Sébastien Buemi",
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNHRXu_e7MVsrzzEcKcdL1v2LLixo41cOraw&s"
+          },
+          {
+            "pilot": "Alexander Sims",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR2NdwNJUuD3dvjj1gv6meVx2GBbx7YRBeSQ&s"
+          },
+          {
+            "pilot": "Lucas di Grassi",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwmxFKgusW1SDcZYjRe76OXVvjenl9M-Bstg&s"
+          },
+          {
+            "pilot": "Norman Nato",
+            "victories": 1,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo_2cb527H4esSyXaT5RPqZPfpfMgU_fAyrw&s"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Maserati MSG Racing",
+      "description": "A Maserati MSG Racing é a equipe da Maserati na Fórmula E, trazendo o prestígio e a tradição da marca italiana para o automobilismo elétrico. A equipe combina a herança de luxo da Maserati com a busca por desempenho e inovação, fazendo uma forte entrada na série de corridas.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #04619F 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/19821c93-f115-41fb-af4f-80831a91afef.svg",
+      "piloto1": {
+        "Foto": "images/ds/piloto1.png",
+        "Nome": "Maximilian",
+        "Sobrenome": "Guenther",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
+        "Pontos": 69,
+        "Podios": 2,
+        "Vitorias": 1
+      },
+      "piloto2": {
+        "Foto": "images/ds/piloto2.png",
+        "Nome": "JEHAN",
+        "Sobrenome": "DARUVALA",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/in.svg",
+        "Pontos": 8,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 285,
+        "averageAcceleration": 3.2,
+        "victories": 18,
+        "probabilityOfVictory": 80,
+        "pilotRanking": [
+          {
+            "pilot": "Lucas di Grassi",
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLZPk29R8P1Dlojmg6LDa6TosAe3RDrqKZgw&s"
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 4,
+            "picture": "https://www.f1-fansite.com/wp-content/uploads/2017/02/Jean-Eric-VErgne-454x280.jpg"
+          },
+          {
+            "pilot": "Mitch Evans",
+            "victories": 3,
+            "picture": "https://cdn-3.motorsport.com/images/mgl/6zQeAklY/s800/mitch-evans-jaguar-racing.jpg"
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvK28rMF3fGcmUZh_yObOJKcnAWW1XIjG9kQ&s"
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNpYKbMy5aDMKlUK-5Z3lkev1TUYc24SPF8Q&s"
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6m33mo3hlY_iYblVzU-SEAPxd9By4d4raKw&s"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "DS Penske",
+      "description": "A DS Penske é uma equipe resultante da união entre a DS Automobiles e a Penske Autosport. Esta parceria combina a experiência da DS em veículos elétricos e a tradição da Penske em competições, buscando consistentemente o sucesso nas corridas da Fórmula E através de inovação e excelência.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #CC9934 25%, #1E1D1B 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/e05ede6d-d065-497b-a298-85afeeeb2ab1.svg",
+      "piloto1": {
+        "Foto": "images/ds/piloto1.png",
+        "Nome": "Stoffel",
+        "Sobrenome": "Vandoorne",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/be.svg",
+        "Pontos": 53,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/ds/piloto2.png",
+        "Nome": "Jean-Eric",
+        "Sobrenome": "Vergne",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 101,
+        "Podios": 2,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 290,
+        "averageAcceleration": 3.3,
+        "victories": 20,
+        "probabilityOfVictory": 82,
+        "pilotRanking": [
+          {
+            "pilot": "Mitch Evans",
+            "victories": 6,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYaD3lZn6WxMD2bzmJ32ADp_fwBreq_gtrA&s"
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQswCmggTNXWMACM0gi8m5ewY3rIW9CwKnH6A&s"
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 3,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCU3DfGqT11G8fbR62X3ozy772WE_xd9eDcQ&s"
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2,
+            "picture": "https://s2.glbimg.com/3yG6icY9CFxK_QY3_bYas9bHD7A=/122x0:723x682/350x397/s.glbimg.com/es/ge/f/original/2015/02/19/b-hlioqimaatv7o.jpg"
+          },
+          {
+            "pilot": "André Lotterer",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLe0r-uAkwr3RgKfTsS_9F6COgWVjWwTF-QA&s"
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 2,
+            "picture": "https://cdn-9.motorsport.com/images/mgl/YBenxJ82/s8/oliver-rowland-nissan-formula--1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "ERT Formula E Team",
+      "description": "A Envision Racing é uma equipe comprometida com a sustentabilidade e o desempenho. Com uma forte ênfase na energia renovável e na redução de carbono, a equipe busca ser competitiva nas pistas enquanto promove práticas ambientais responsáveis, alinhando-se com os objetivos da Fórmula E.",
+      "background": "linear-gradient(115deg, #fff 0 25%, #2C3E50 25%, #000000 100%)",
+      "logo": "https://static-files.formula-e.pulselive.com/badges/5ac8091a-b415-4abb-a7ef-fb5511e545d5.svg",
+      "piloto1": {
+        "Foto": "images/ert/piloto1.png",
+        "Nome": "SÉRGIO",
+        "Sobrenome": "SETTE CÂMARA",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
+        "Pontos": 11,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "piloto2": {
+        "Foto": "images/ert/piloto1.png",
+        "Nome": "DAN",
+        "Sobrenome": "DTICKTUM",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 12,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      "statsCurrentSeason": {
+        "averageSpeed": 280,
+        "averageAcceleration": 3.1,
+        "victories": 17,
+        "probabilityOfVictory": 79,
+        "pilotRanking": [
+          {
+            "pilot": "Sam Bird",
+            "victories": 5,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllK-2FXXTC_fitRrxV6CYNxA1_d6XZpKbhA&s"
+          },
+          {
+            "pilot": "Mitch Evans",
+            "victories": 4,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJC5sBU7p6zS3c_UkkAn91ceY0drOxZFBT5w&s"
+          },
+          {
+            "pilot": "Jean-Éric Vergne",
+            "victories": 3,
+            "picture": "https://www.blackbookmotorsport.com/wp-content/uploads/2023/12/Jean-Eric-Vergne.jpg"
+          },
+          {
+            "pilot": "Pascal Wehrlein",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEwI5NSJ3y7jMecfGXWp_PHDNNQVI44GWa2w&s"
+          },
+          {
+            "pilot": "Stoffel Vandoorne",
+            "victories": 2,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmlWGpha9RrR310mHy00pP-V6Q6rCUIHsZ3w&s"
+          },
+          {
+            "pilot": "Oliver Rowland",
+            "victories": 1,
+            "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0vthKK1VXNrum8eIPEMTfkVzVJlI-avJrQ&s"
+          }
+        ]
+      }
     }
-  ] 
+  ]
 }

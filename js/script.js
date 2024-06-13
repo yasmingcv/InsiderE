@@ -1,4 +1,4 @@
-window.onload = function() {
+window.onload = function () {
     if (!localStorage.getItem("redirected")) {
         window.location.href = "chooseYourTeam.html";
         localStorage.setItem("redirected", "true");
@@ -37,6 +37,39 @@ window.onload = function() {
                         </div>
                         <img class="imagem-piloto" src=${team.piloto2.Foto} alt="Logo do time">
                     `;
+
+                    const teamStatsContainer = document.getElementById('team-stats')
+                    //teamStatsContainer.style.background = team.background.replace(/linear-gradient\(\d+deg/, `linear-gradient(0deg`)
+
+                    const velocidade = document.getElementById('velocidade')
+                    velocidade.innerHTML = `${team.statsCurrentSeason.averageSpeed}<span>km/h</span>`
+
+                    const aceleracao = document.getElementById('aceleracao')
+                    aceleracao.innerHTML = `${team.statsCurrentSeason.averageAcceleration}<span>s</span>`
+
+                    const vitorias = document.getElementById('vitorias')
+                    vitorias.innerHTML = `${team.statsCurrentSeason.victories}/23`
+
+                    const probabilidadeVitoria = document.getElementById('probabilidadeVitoria')
+                    probabilidadeVitoria.innerHTML = `${team.statsCurrentSeason.probabilityOfVictory}<span>%</span>`
+
+                    const rankingPilotos = document.getElementById('rankingPilotos')
+
+                    const maxVictories = Math.max(...team.statsCurrentSeason.pilotRanking.map(pilot => pilot.victories))
+
+                    team.statsCurrentSeason.pilotRanking.forEach(pilot => {
+                        const widthPercentage = (pilot.victories / maxVictories) * 55;
+                        rankingPilotos.innerHTML += `
+                        <div class="ranking__pilot">
+                            <span>
+                                <img class="icon__pilot" src=${pilot.picture}></img>
+                                <p>${pilot.pilot}</p>
+                                <div class="ranking__bar" style= "width: ${widthPercentage}%;"></div>
+                            </span>
+                            <p>${pilot.victories}</p>
+                        </div>
+                        `
+                    })
                 }
             })
             .catch(error => console.error('Error fetching the JSON:', error));
