@@ -3,6 +3,8 @@
     {
       "id": 0,
       "name": "ABT CUPRA FORMULA E TEAM",
+      "class": "ABT",
+      "color": "#04619F",
       "description": "A ABT CUPRA Formula E Team é uma colaboração entre a ABT Sportsline e a CUPRA, a marca esportiva da SEAT. A equipe é conhecida por sua paixão pelo automobilismo e seu compromisso com a inovação tecnológica, trazendo uma abordagem única e dinâmica para a Fórmula E.",
       "background": "linear-gradient(115deg, #fff 0 25%, #04619F 25%, #000000 100%)",
       "logo": "https://static-files.formula-e.pulselive.com/badges/c57e46c4-8163-44f6-9c0d-b74579d51000.svg",

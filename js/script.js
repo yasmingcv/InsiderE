@@ -17,7 +17,6 @@ window.onload = function () {
                     const teamDetailsContainerImages = document.getElementById('team-details-images');
                     const piloto1Container = document.getElementById('piloto1');
                     const piloto2Container = document.getElementById('piloto2');
-                    console.log(teamDetailsContainerImages);
                     teamDetailsContainerText.innerHTML = `
                         <img src="${team.logo}" style="width:300px;height:auto;">
                         <p>${team.description}</p>
@@ -36,7 +35,35 @@ window.onload = function () {
                             <h1 class="pilotoSobrenome">${team.piloto2.Sobrenome}</h1>
                         </div>
                         <img class="imagem-piloto" src=${team.piloto2.Foto} alt="Logo do time">
+                    `;      
+                    //Secao de desempenho do piloto
+                    const desempenhoPiloto1 = document.getElementById('desempenho-piloto-1');
+                    const desempenhoPiloto2 = document.getElementById('desempenho-piloto-2');
+                    desempenhoPiloto1.innerHTML = `
+                        <div class="piloto-imagem imagem1">
+                            <img src="${team.piloto1.Foto}" alt="Piloto 1 da ${team.name}">
+                            <p> <strong>${team.piloto1.Nome}</strong> <br> ${team.piloto1.Sobrenome}</p>
+                        </div>
+                        <ul>
+                            <li>Pontos <span>${team.piloto1.Pontos}</span></li>
+                            <li>Vitórias <span>${team.piloto1.Vitorias}</span></li>
+                            <li>Pódios <span>${team.piloto1.Podios}</span></li>
+                            <li>Nacionalidade <span><img src="${team.piloto1.Nacionalidade}" alt=""></span></li>
+                        </ul>
                     `;
+                    desempenhoPiloto2.innerHTML = `
+                        <ul>
+                            <li>Pontos <span>${team.piloto2.Pontos}</span></li>
+                            <li>Vitórias <span>${team.piloto2.Vitorias}</span></li>
+                            <li>Pódios <span>${team.piloto2.Podios}</span></li>
+                            <li>Nacionalidade <span><img src="${team.piloto2.Nacionalidade}" alt=""></span></li>
+                        </ul>
+                        <div class="piloto-imagem imagem2">
+                            <p> <strong>${team.piloto2.Nome}</strong> <br> ${team.piloto2.Sobrenome}</p>
+                            <img src="${team.piloto2.Foto}" alt="Piloto 2 da ${team.name}">
+                        </div>
+                    `;
+                    alterarCores(team);
 
                     const teamStatsContainer = document.getElementById('team-stats')
                     //teamStatsContainer.style.background = team.background.replace(/linear-gradient\(\d+deg/, `linear-gradient(0deg`)
@@ -75,3 +102,23 @@ window.onload = function () {
             .catch(error => console.error('Error fetching the JSON:', error));
     }
 };
+
+function alterarCores(team) {
+    // Nova cor para os elementos
+    const novaCor = team.color;
+
+    // Selecionar e alterar a cor dos elementos desempenho-piloto ul>li span
+    const spans = document.querySelectorAll('.desempenho-piloto ul>li span');
+    spans.forEach(span => {
+        span.style.color = novaCor;
+    });
+
+    // Selecionar e alterar a cor dos elementos piloto-imagem strong
+    const strongs = document.querySelectorAll('.piloto-imagem strong');
+    strongs.forEach(strong => {
+        strong.style.color = novaCor;
+    });
+
+    const bordaEspecial = document.querySelector('.desempenho');
+    bordaEspecial.classList.add(`${team.class}`);
+}
