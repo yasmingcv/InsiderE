@@ -99,3 +99,11 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 - Site: [insidere.com](https://insider-e.github.io/InsiderE/)
 
 Obrigado por contribuir para o InsiderE! Juntos, podemos proporcionar a melhor experiência possível para os fãs de Fórmula E.
+
+## Integrantes:
+
+- David Murillo de Oliveira Soares (RM 559078)
+- Davi dos Reis Garcia (RM 556741)
+- Yasmin Gonçalves Coelho (RM 559147)
+- Yasmin Naomi Minemoto (RM 559154)
+
