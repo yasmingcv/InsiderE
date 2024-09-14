@@ -106,4 +106,3 @@ Obrigado por contribuir para o InsiderE! Juntos, podemos proporcionar a melhor e
 - Davi dos Reis Garcia (RM 556741)
 - Yasmin Gonçalves Coelho (RM 559147)
 - Yasmin Naomi Minemoto (RM 559154)
-
