@@ -6,6 +6,7 @@ import './styles/reset.css'
 import Login from './pages/login/Login';
 import Cadastro from './pages/cadastro/Cadastro';
 import PageNotFound from './pages/notfound/PageNotFound.jsx'
+import ChooseYourTeam from './pages/chooseYourTeam/ChooseYourTeam'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: '/cadastro',
     element: <Cadastro />,
+  },
+  {
+    path: '/escolha-seu-time',
+    element: <ChooseYourTeam />,
   },
   {
     path: '*',

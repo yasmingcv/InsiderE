@@ -30,7 +30,7 @@ const Cadastro = () => {
     registerMessage.innerText = 'Registrado com sucesso.';
 
     setTimeout(() => {
-      navigate('/chooseYourTeam'); 
+      navigate('/escolha-seu-time'); 
     }, 1000);
   }
 

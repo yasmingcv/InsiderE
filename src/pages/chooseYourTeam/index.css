@@ -1,0 +1,73 @@
+main {
+    background: rgb(12, 5, 133);
+    background: linear-gradient(90deg, rgba(12, 5, 133, 1) 0%, rgba(14, 13, 237, 1) 10%, rgba(15, 21, 237, 1) 20%, rgba(27, 94, 238, 1) 49%, rgba(25, 88, 235, 1) 63%, rgba(5, 24, 208, 1) 95%, rgba(6, 1, 134, 1) 100%);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    height: auto;
+}
+
+h1 {
+    color: #f0f0f0;
+    font-size: 3rem;
+}
+
+#teams-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: auto;
+    width: 90%;
+    margin-bottom: 50px;
+    place-content: center;
+    place-items: center;
+}
+
+.team-card{
+    width: 230px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
+    background-color: #fff;
+    padding: 20px;
+    transition: all 300ms;
+    cursor: pointer;
+}
+
+.team-card h2 {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.team-card img {
+    width: 90%;
+}
+
+.team-card:hover{
+    scale: 1.05;
+}
+
+@media (min-width: 768px) {
+    #teams-container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    #teams-container {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+}

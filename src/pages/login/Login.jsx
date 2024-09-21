@@ -19,7 +19,7 @@ const Login = () => {
         loginMessage.style.color = 'green';
         loginMessage.textContent = 'Login bem-sucedido!';
         setTimeout(() => {
-          navigate('/chooseYourTeam'); 
+          navigate('/escolha-seu-time'); 
         }, 1000);
     } else {
         loginMessage.style.color = 'red';
