@@ -1,6 +1,7 @@
+import Form from '../../components/form/Form';
 import Navbar from '../../components/navbar/Navbar';
 import './index.css'
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -27,49 +28,12 @@ const Login = () => {
   }
 
   return (
-    <>
-      <Navbar showButtons="true" />
-      <section className="form-container">
-        <div className="container-login">
-          <form onSubmit={handleSubmit}>
-            <div className="formulario">
-              <h1 className="titulo-form">Entrar</h1>
-
-              <div className="input-single">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="text"
-                  id="email"
-                  placeholder="exemplo@gmail.com"
-                  required
-                  />
-              </div>
-
-              <div className="input-single">
-                <label htmlFor="password">Senha</label>
-                <input
-                  type="password"
-                  id="password"
-                  placeholder="informe sua senha"
-                  required
-                  />
-              </div>
-
-              <p id="message"></p>
-
-              <div className="input-single">
-                <button id="loginButton" type="submit">Entrar</button>
-              </div>
-
-              <div className="input-single btn-cadastro">
-                <p>Não tem uma conta?</p>
-                <Link to="/cadastro">Cadastrar-se</Link>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section>
-    </>
+    <section className="login-container">
+      <Navbar showButtons={false} />
+      <main className="login-content">
+        <Form method={handleSubmit} title="Entrar" link="/cadastro" buttonText="Entrar" cadastro={false} bottonText="Não tem uma conta?" bottomButton="Cadastrar-se"/>
+      </main>
+    </section>
   );
 };
 

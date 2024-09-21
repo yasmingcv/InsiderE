@@ -1,0 +1,94 @@
+form {
+    background-color: #344054;
+    width: 90%;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #fff;
+    width: 100%;
+}
+
+.titulo-form {
+    display: flex;
+    font-size: 28px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-single input {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #344054;
+    padding: 0 0 0 16px ;
+    border: 2px solid #e4e4e5;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.input-single {
+    width: 90%;
+}
+
+.input-single button {
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1570EF;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.input-single button:hover {
+    background-color: #0c59c6;
+    transition: 1s background;
+}
+
+
+.input-single p {
+    display: flex;
+    justify-content: center;
+    color: #98A2B3;
+}
+
+.input-single a {
+    color: #1570EF;
+    text-decoration: none;
+}
+ 
+
+.btn-cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#message {
+    color: rgb(220, 55, 55);
+    font-weight: 500;
+}
+
+@media (min-width: 1024px) {
+    form {
+        width: 540px;
+    }
+}

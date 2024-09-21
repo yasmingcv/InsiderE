@@ -1,6 +1,7 @@
+import Form from '../../components/form/Form';
 import Navbar from '../../components/navbar/Navbar';
-import './index.css'
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import "./index.css"
 
 const Cadastro = () => {
   const navigate = useNavigate();
@@ -34,59 +35,12 @@ const Cadastro = () => {
   }
 
   return (
-    <>
-      <Navbar showButtons="true" />
-      <section className="form-container">
-        <div className="container-login">
-          <form onSubmit={handleSubmit}>
-            <div className="formulario">
-              <h1 className="titulo-form">Crie uma conta</h1>
-
-              <div className="input-single">
-                <label htmlFor="email">Email</label>
-                <input
-                  type="text"
-                  id="email"
-                  placeholder="exemplo@gmail.com"
-                  required
-                  />
-              </div>
-
-              <div className="input-single">
-                <label htmlFor="password">Senha</label>
-                <input
-                  type="password"
-                  id="password"
-                  placeholder="Informe sua senha"
-                  required
-                  />
-              </div>
-
-              <div className="input-single">
-                <label htmlFor="confirmPassword">Confirmar senha</label>
-                <input
-                  type="password"
-                  id="confirmPassword"
-                  placeholder="Informe sua senha"
-                  required
-                  />
-              </div>
-
-              <p id="message"></p>
-
-              <div className="input-single">
-                <button id="buttonRegister" type="submit">Criar conta</button>
-              </div>
-
-              <div className="input-single btn-cadastro">
-                <p>Já possui conta?</p>
-                <Link to="/login">Entrar</Link>
-              </div>
-            </div>
-          </form>
-        </div>
+    <section className="cadastro-container">
+      <Navbar showButtons={false} />
+      <main className="cadastro-content">
+        <Form method={handleSubmit} link="/login" title="Crie uma conta" buttonText="Criar conta" cadastro={true} bottonText="Já possui conta?" bottomButton="Entrar"/>
+      </main>
       </section>
-    </>
   );
 };
 
