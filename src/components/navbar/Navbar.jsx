@@ -10,10 +10,10 @@ import { DropdownItem } from '@nextui-org/dropdown';
 const Navbar = (props) => {
   return (
     <header>
-       <Link to="/"><img id="logo-header-team" src="src/assets/images/logo_branca.png" alt=""/></Link>
+       <Link to="/"><img id="logo-header-team" src="/src/assets/images/logo_branca.png" alt=""/></Link>
         {props.showButtons ? (
           <div className="buttons buttons-header">
-            <button id="entrar"><Link to="/login">ENTRAR</Link></button>
+            <button id="entrar"><Link to="/">ENTRAR</Link></button>
             <button id="cadastrar-se"><Link to="/cadastro">CADASTRAR-SE</Link></button>
             <div className="menu-responsivo"> 
               <Dropdown className="dark">
