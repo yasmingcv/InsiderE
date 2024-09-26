@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import Navbar from "../../components/navbar/Navbar";
 import "./index.css";
 const TeamDetails = () => {
-  const { id } = useParams(); 
+  const { id } = useParams();
 
   const [team, setTeam] = useState(null);
   const [indexSlide, setIndexSlide] = useState(0);
@@ -16,7 +16,7 @@ const TeamDetails = () => {
           return response.json();
         })
         .then((data) => {
-          const teamFound = data.teams.find((t) => t.id == id); 
+          const teamFound = data.teams.find((t) => t.id == id);
           setTeam(teamFound);
           iniciarSlideShow(teamFound);
         })
@@ -45,7 +45,6 @@ const TeamDetails = () => {
     return <div>Carregando...</div>;
   }
   console.log(`../../assets/${team.piloto1.Foto}`);
-  
 
   return (
     <>
@@ -55,25 +54,28 @@ const TeamDetails = () => {
           <img src={team.logo} style={{ width: "300px", height: "auto" }} />
           <p>{team.description}</p>
         </section>
-        <section id="team-details-images" style={{background: team.background}}>
-          <div id="piloto1" class="piloto">
+        <section
+          id="team-details-images"
+          style={{ background: team.background }}
+        >
+          <div id="piloto1" className="piloto">
             <div>
-              <h3 class="pilotoNome">{team.piloto1.Nome}</h3>
-              <h1 class="pilotoSobrenome">{team.piloto1.Sobrenome}</h1>
+              <h3 className="pilotoNome">{team.piloto1.Nome}</h3>
+              <h1 className="pilotoSobrenome">{team.piloto1.Sobrenome}</h1>
             </div>
             <img
-              class="imagem-piloto"
+              className="imagem-piloto"
               src={`/src/assets/${team.piloto1.Foto}`}
               alt="Logo do time"
             />
           </div>
-          <div id="piloto2" class="piloto">
+          <div id="piloto2" className="piloto">
             <div>
-              <h3 class="pilotoNome">{team.piloto2.Nome}</h3>
-              <h1 class="pilotoSobrenome">{team.piloto2.Sobrenome}</h1>
+              <h3 className="pilotoNome">{team.piloto2.Nome}</h3>
+              <h1 className="pilotoSobrenome">{team.piloto2.Sobrenome}</h1>
             </div>
             <img
-              class="imagem-piloto"
+              className="imagem-piloto"
               src={`/src/assets/${team.piloto2.Foto}`}
               alt="Logo do time"
             />
@@ -81,62 +83,74 @@ const TeamDetails = () => {
         </section>
       </section>
       <section className="desempenho">
-        <h1 style={{color: '#000'}}>DESEMPENHO TEMPORADA 23/24</h1>
-        <div className="desempenho-piloto" id="desempenho-piloto-1">
-          <div>
-            <h3 className="pilotoNome">{team.piloto1.Nome}</h3>
-            <h1 className="pilotoSobrenome">{team.piloto1.Sobrenome}</h1>
+        <h1 style={{ color: "#000" }}>DESEMPENHO TEMPORADA 23/24</h1>
+        <div className="desempenho-img">
+          <div className="desempenho-piloto" id="desempenho-piloto-1">
+            <div>
+              <h3 className="pilotoNome">{team.piloto1.Nome}</h3>
+              <h1 className="pilotoSobrenome">{team.piloto1.Sobrenome}</h1>
+            </div>
+            <img
+              className="imagem-piloto pilotoImg1"
+              src={`/src/assets/${team.piloto1.Foto}`}
+              alt="Piloto 1"
+            />
+            <ul>
+              <li>
+                Pontos{" "}
+                <span style={{ color: team.color }}>{team.piloto1.Pontos}</span>
+              </li>
+              <li>
+                Vitórias{" "}
+                <span style={{ color: team.color }}>
+                  {team.piloto1.Vitorias}
+                </span>
+              </li>
+              <li>
+                Pódios{" "}
+                <span style={{ color: team.color }}>{team.piloto1.Podios}</span>
+              </li>
+              <li>
+                Nacionalidade{" "}
+                <span>
+                  <img src={team.piloto1.Nacionalidade} alt="" />
+                </span>
+              </li>
+            </ul>
           </div>
-          <img
-            className="imagem-piloto"
-            src={`/src/assets/${team.piloto1.Foto}`}
-            alt="Piloto 1"
-          />
-          <ul>
-            <li>
-              Pontos <span style={{color: team.color}}>{team.piloto1.Pontos}</span>
-            </li>
-            <li>
-              Vitórias <span style={{color: team.color}}>{team.piloto1.Vitorias}</span>
-            </li>
-            <li>
-              Pódios <span style={{color: team.color}}>{team.piloto1.Podios}</span>
-            </li>
-            <li>
-              Nacionalidade{" "}
-              <span>
-                <img src={team.piloto1.Nacionalidade} alt="" />
-              </span>
-            </li>
-          </ul>
-        </div>
-        <div className="desempenho-piloto bloco2" id="desempenho-piloto-2">
-          <div>
-            <h3 className="pilotoNome">{team.piloto2.Nome}</h3>
-            <h1 className="pilotoSobrenome">{team.piloto2.Sobrenome}</h1>
+          <div className="desempenho-piloto bloco2" id="desempenho-piloto-2">
+            <div>
+              <h3 className="pilotoNome">{team.piloto2.Nome}</h3>
+              <h1 className="pilotoSobrenome">{team.piloto2.Sobrenome}</h1>
+            </div>
+            <img
+              className="imagem-piloto"
+              src={`/src/assets/${team.piloto2.Foto}`}
+              alt="Piloto 2"
+            />
+            <ul>
+              <li>
+                Pontos{" "}
+                <span style={{ color: team.color }}>{team.piloto2.Pontos}</span>
+              </li>
+              <li>
+                Vitórias{" "}
+                <span style={{ color: team.color }}>
+                  {team.piloto2.Vitorias}
+                </span>
+              </li>
+              <li>
+                Pódios{" "}
+                <span style={{ color: team.color }}>{team.piloto2.Podios}</span>
+              </li>
+              <li>
+                Nacionalidade{" "}
+                <span>
+                  <img src={team.piloto2.Nacionalidade} alt="" />
+                </span>
+              </li>
+            </ul>
           </div>
-          <img
-            className="imagem-piloto"
-            src={`/src/assets/${team.piloto2.Foto}`}
-            alt="Piloto 2"
-          />
-          <ul>
-            <li>
-              Pontos <span style={{color: team.color}}>{team.piloto2.Pontos}</span>
-            </li>
-            <li>
-              Vitórias <span style={{color: team.color}}>{team.piloto2.Vitorias}</span>
-            </li>
-            <li>
-              Pódios <span style={{color: team.color}}>{team.piloto2.Podios}</span>
-            </li>
-            <li>
-              Nacionalidade{" "}
-              <span>
-                <img src={team.piloto2.Nacionalidade} alt="" />
-              </span>
-            </li>
-          </ul>
         </div>
       </section>
 
