@@ -29,7 +29,7 @@ const ChooseYourTeam = () => {
         <section id="teams-container">
           {data ? (
             data.teams.map((team) => (
-              <Link to={`/time/${team.id}`}>
+              <Link to={`/time/${team.id}`} key={team.id}>
                 <div key={team.id} className="team-card" data-id={team.id}>
                   <img
                     src={team.logo || "default-logo.png"}

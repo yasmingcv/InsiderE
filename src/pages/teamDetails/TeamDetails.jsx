@@ -44,7 +44,6 @@ const TeamDetails = () => {
   if (!team) {
     return <div>Carregando...</div>;
   }
-  console.log(`../../assets/${team.piloto1.Foto}`);
 
   return (
     <>
@@ -87,8 +86,8 @@ const TeamDetails = () => {
         <div className="desempenho-img">
           <div className="desempenho-piloto" id="desempenho-piloto-1">
             <div>
-              <h3 className="pilotoNome">{team.piloto1.Nome}</h3>
-              <h1 className="pilotoSobrenome">{team.piloto1.Sobrenome}</h1>
+              <h3 className="pilotoNomeDetalhes">{team.piloto1.Nome}</h3>
+              <h1 className="pilotoSobrenomeDetalhes">{team.piloto1.Sobrenome}</h1>
             </div>
             <img
               className="imagem-piloto pilotoImg1"
@@ -120,8 +119,8 @@ const TeamDetails = () => {
           </div>
           <div className="desempenho-piloto bloco2" id="desempenho-piloto-2">
             <div>
-              <h3 className="pilotoNome">{team.piloto2.Nome}</h3>
-              <h1 className="pilotoSobrenome">{team.piloto2.Sobrenome}</h1>
+              <h3 className="pilotoNomeDetalhes">{team.piloto2.Nome}</h3>
+              <h1 className="pilotoSobrenomeDetalhes">{team.piloto2.Sobrenome}</h1>
             </div>
             <img
               className="imagem-piloto"
