@@ -38,7 +38,7 @@ const Cadastro = () => {
     <section className="cadastro-container">
       <Navbar showButtons={false} />
       <main className="cadastro-content">
-        <Form method={handleSubmit} link="/login" title="Crie uma conta" buttonText="Criar conta" cadastro={true} bottonText="Já possui conta?" bottomButton="Entrar"/>
+        <Form method={handleSubmit} link="/" title="Crie uma conta" buttonText="Criar conta" cadastro={true} bottonText="Já possui conta?" bottomButton="Entrar"/>
       </main>
       </section>
   );

@@ -23,7 +23,7 @@ const Navbar = (props) => {
                   </Button>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions">
-                  <DropdownItem key="new"><Link to="/login" className="text-white">ENTRAR</Link></DropdownItem>
+                  <DropdownItem key="new"><Link to="/" className="text-white">ENTRAR</Link></DropdownItem>
                   <DropdownItem key="copy"><Link to="/cadastro" className="text-white">CADASTRAR-SE</Link></DropdownItem>
                 </DropdownMenu>
               </Dropdown>

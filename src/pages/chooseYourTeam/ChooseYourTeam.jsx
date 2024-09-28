@@ -19,7 +19,6 @@ const ChooseYourTeam = () => {
       })
       .catch((error) => console.error("Error fetching the JSON:", error));
   }, []);
-  console.log(data);
   
   return (
     <>
