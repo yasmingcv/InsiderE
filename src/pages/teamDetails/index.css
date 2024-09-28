@@ -552,3 +552,26 @@ footer a:hover {
 }
 
 
+
+@media (max-width: 652px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 38px;
+        width: 100%;
+        height: 100%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+}
