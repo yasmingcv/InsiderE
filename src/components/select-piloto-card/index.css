@@ -1,0 +1,17 @@
+@media (max-width: 1024px) {
+    .pilotoCard {
+        height: 250px;
+    }
+
+    .pilotoCardNome {
+        font-size: 1rem;
+    }
+
+    .pilotoCardSobrenome {
+        font-size: 1.4rem;
+    }
+
+    .pilotoCardText {
+        width: 190px;
+    }
+}
