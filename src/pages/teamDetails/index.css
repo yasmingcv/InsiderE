@@ -189,6 +189,11 @@
     position: relative;
 }
 
+.desempenho-img{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
 
 .desempenho ul {
     display: flex;

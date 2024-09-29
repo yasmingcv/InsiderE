@@ -47,7 +47,7 @@ const TeamDetails = () => {
 
   return (
     <>
-      <Navbar showButtons={true} />
+      <Navbar showButtons={true} showJogar={true} />
       <section id="team-details">
         <section id="team-details-text">
           <img src={team.logo} style={{ width: "300px", height: "auto" }} />

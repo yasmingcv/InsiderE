@@ -12,7 +12,6 @@ main {
 }
 
 h1 {
-    color: #f0f0f0;
     font-size: 3rem;
 }
 
@@ -22,7 +21,7 @@ h1 {
     grid-template-rows: auto;
     gap: 10px;
     height: auto;
-    width: 90%;
+    width: 75%;
     margin-bottom: 50px;
     place-content: center;
     place-items: center;
@@ -36,7 +35,7 @@ h1 {
     align-items: center;
     text-align: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     border-radius: 8px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 12px;
     background-color: #fff;

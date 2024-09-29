@@ -64,7 +64,6 @@ header a img{
 }
 
 #entrar {
-    background-color: #021f5e;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -79,6 +78,10 @@ header a img{
     display: none;
 }
 
+#jogar{
+    display: none;
+}
+
 @media (min-width: 768px) {    
     .menu-responsivo {
         display: none;
@@ -90,5 +93,10 @@ header a img{
     
     #cadastrar-se {
         display: block;
+    }
+
+    
+    #jogar{
+        display: flex;
     }
 }

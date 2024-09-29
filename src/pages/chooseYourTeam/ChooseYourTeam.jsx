@@ -22,9 +22,9 @@ const ChooseYourTeam = () => {
   
   return (
     <>
-      <Navbar showButtons={true} />
+      <Navbar showButtons={true} showJogar={true}/>
       <main>
-        <h1>ESCOLHA SUA EQUIPE</h1>
+        <h1 className="text-white font-bold">ESCOLHA SUA EQUIPE</h1>
         <section id="teams-container">
           {data ? (
             data.teams.map((team) => (

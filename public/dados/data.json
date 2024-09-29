@@ -759,5 +759,227 @@
         ]
       }
     }
+  ],
+  "pilotos": [
+    {
+        "Index": 0,
+        "Foto": "images/abt/piloto1.png",
+        "Nome": "LUCAS",
+        "Sobrenome": "DI GRASSI",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
+        "Pontos": 2,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 1,
+        "Foto": "images/abt/piloto2.png",
+        "Nome": "NICO",
+        "Sobrenome": "MUELLER",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
+        "Pontos": 18,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 2,
+        "Foto": "images/andretti/piloto1.png",
+        "Nome": "Jake",
+        "Sobrenome": "Dennis",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 113,
+        "Podios": 4,
+        "Vitorias": 1
+      },
+      {
+        "Index": 3,
+        "Foto": "images/andretti/piloto2.png",
+        "Nome": "NORMAN",
+        "Sobrenome": "NATO",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 40,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      {
+        "Index": 4,
+        "Foto": "images/jaguar/piloto1.png",
+        "Nome": "Mitch",
+        "Sobrenome": "Evans",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
+        "Pontos": 132,
+        "Podios": 2,
+        "Vitorias": 3
+      },
+      {
+        "Index": 5,
+        "Foto": "images/jaguar/piloto2.png",
+        "Nome": "Nick",
+        "Sobrenome": "Cassidy",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
+        "Pontos": 167,
+        "Podios": 8,
+        "Vitorias": 2
+      },
+      {
+        "Index": 6,
+        "Foto": "images/envision/piloto1.png",
+        "Nome": "ROBIN",
+        "Sobrenome": "FRIJNS",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
+        "Pontos": 23,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      {
+        "Index": 7,
+        "Foto": "images/envision/piloto2.png",
+        "Nome": "Sebastien",
+        "Sobrenome": "Buemi",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
+        "Pontos": 24,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      {
+        "Index": 8,
+        "Foto": "images/mahindra/piloto1.png",
+        "Nome": "NYCK",
+        "Sobrenome": "De Vries",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
+        "Pontos": 6,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 9,
+        "Foto": "images/mahindra/piloto2.png",
+        "Nome": "Edoardo",
+        "Sobrenome": "Mortara",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
+        "Pontos": 7,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 10,
+        "Foto": "images/nissan/piloto1.png",
+        "Nome": "Sacha",
+        "Sobrenome": "Fenestraz",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 26,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 11,
+        "Foto": "images/nissan/piloto2.png",
+        "Nome": "Oliver",
+        "Sobrenome": "Rowland",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 131,
+        "Podios": 6,
+        "Vitorias": 1
+      },
+      {
+        "Index": 12,
+        "Foto": "images/porshe/piloto1.png",
+        "Nome": "Felix",
+        "Sobrenome": "da Costa",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/pt.svg",
+        "Pontos": 84,
+        "Podios": 2,
+        "Vitorias": 2
+      },
+      {
+        "Index": 13,
+        "Foto": "images/porshe/piloto2.png",
+        "Nome": "Pascal",
+        "Sobrenome": "Wehrlein",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
+        "Pontos": 142,
+        "Podios": 3,
+        "Vitorias": 2
+      },
+      {
+        "Index": 14,
+        "Foto": "images/mclaren/piloto1.png",
+        "Nome": "Jake",
+        "Sobrenome": "Hughes",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 46,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      {
+        "Index": 15,
+        "Foto": "images/mclaren/piloto2.png",
+        "Nome": "SAM",
+        "Sobrenome": "BIRD",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 38,
+        "Podios": 1,
+        "Vitorias": 1
+      },
+      {
+        "Index": 16,
+        "Foto": "images/ds/piloto1.png",
+        "Nome": "Maximilian",
+        "Sobrenome": "Guenther",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
+        "Pontos": 69,
+        "Podios": 2,
+        "Vitorias": 1
+      },
+      {
+        "Index": 17,
+        "Foto": "images/maserati/piloto2.png",
+        "Nome": "JEHAN",
+        "Sobrenome": "DARUVALA",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/in.svg",
+        "Pontos": 8,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 18,
+        "Foto": "images/maserati/piloto1.png",
+        "Nome": "Stoffel",
+        "Sobrenome": "Vandoorne",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/be.svg",
+        "Pontos": 53,
+        "Podios": 1,
+        "Vitorias": 0
+      },
+      {
+        "Index": 19,
+        "Foto": "images/ds/piloto2.png",
+        "Nome": "Jean-Eric",
+        "Sobrenome": "Vergne",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
+        "Pontos": 101,
+        "Podios": 2,
+        "Vitorias": 0
+      },
+      {
+        "Index": 20,
+        "Foto": "images/ert/piloto1.png",
+        "Nome": "SETTE",
+        "Sobrenome": "CÂMARA",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
+        "Pontos": 11,
+        "Podios": 0,
+        "Vitorias": 0
+      },
+      {
+        "Index": 21,
+        "Foto": "images/ert/piloto2.png",
+        "Nome": "DAN",
+        "Sobrenome": "DTICKTUM",
+        "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
+        "Pontos": 12,
+        "Podios": 0,
+        "Vitorias": 0
+      }
   ]
 }
