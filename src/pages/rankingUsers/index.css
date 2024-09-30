@@ -1,0 +1,77 @@
+.ranking-users {
+  min-height: 100vh;
+  height: auto;
+  background: linear-gradient(
+    90deg,
+    rgba(12, 5, 133, 1) 0%,
+    rgba(14, 13, 237, 1) 10%,
+    rgba(15, 21, 237, 1) 20%,
+    rgba(27, 94, 238, 1) 49%,
+    rgba(25, 88, 235, 1) 63%,
+    rgba(5, 24, 208, 1) 95%,
+    rgba(6, 1, 134, 1) 100%
+  );
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classification {
+  background-color: rgb(0, 0, 0, 50%);
+  padding: 30px;
+  width: 50vw;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 50px 0;
+}
+
+.classification-item {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.classification-item:hover{
+    background-color: rgb(0, 0, 0, 60%);
+
+}
+
+.classification-item p {
+    font-weight: 500;
+}
+
+.classification-item span {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.classification-item img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+    .classification {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .classification {
+        width: 90vw;
+    }
+    .ranking-points{
+        display: none;
+    }
+}

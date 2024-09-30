@@ -13,6 +13,8 @@ import Escalacao from './pages/escalacao/Escalacao'
 import SelecionaPiloto from './pages/selecionaPiloto/SelecionaPiloto'
 import SelecionarPole from './pages/selecionarPole/SelecionarPole'
 import SelecionarEquipe from './pages/selecionarEquipe/SelecionarEquipe'
+import Ranking from './pages/ranking/Ranking.jsx'
+import RankingUsers from './pages/rankingUsers/RankingUsers.jsx'
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,8 @@ const router = createBrowserRouter([
       { path: '/pole', element: <SelecionarPole/> },
       { path: '/maiorPontuadora', element: <SelecionarEquipe/> },
       { path: '/time/:id', element: <TeamDetails/> },
+      { path: '/ranking', element: <Ranking/> },
+      { path: '/rankingUsers', element: <RankingUsers/> },
       { path: '/*', element: <PageNotFound/> },
     ]
   }
