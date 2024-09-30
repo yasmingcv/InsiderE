@@ -32,14 +32,14 @@ const SelectPilotoCard = (props) => {
           >
           <img
             className="object-cover w-24 rounded-t-lg h-32 md:rounded-none md:rounded-s-lg"
-            src={`/src/assets/${image}`}
+            src={`/assets/${image}`}
             alt={name}
             />
           <div className="flex flex-col justify-between p-4 leading-normal pilotoCardText">
             <h3 className="mb-2 pilotoCardNome text-xl font-bold tracking-tight text-white">
               {name}
             </h3>
-            <h1 className="mb-2 pilotoCardSobrenome text-3xl font-bold tracking-tight text-white">
+            <h1 className="mb-2 pilotoCardSobrenome text-3xl font-bold tracking-tight text-white pt-0">
               {lastName}
             </h1>
             {isSelected && (

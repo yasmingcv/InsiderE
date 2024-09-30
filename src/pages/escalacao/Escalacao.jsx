@@ -1,5 +1,4 @@
 import "./index.css"
-import {podium, placeholder} from "../../assets/index"
 import Navbar from './../../components/navbar/Navbar';
 import { Link, useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
@@ -40,7 +39,7 @@ const Escalacao = () => {
         <p>Quem você acha que se dará melhor na rodada? Selecione o seu pódio da corrida, a equipe que mais vai pontuar e o piloto que largará na pole position. </p>
         <section className="previsoes">
         <div className="relative h-[500px] cursor-pointer hover:scale-[102%] duration-200 divPodio" onClick={() => navigate('/podio')}>
-          <img src={podium} alt="podio image" className="w-[750px] h-full object-contain podio" />
+          <img src="/assets/podium.webp" alt="podio image" className="w-[750px] h-full object-contain podio" />
         {podio && podio.length > 0 && (
           <>
             {podio[0] && (
@@ -49,7 +48,7 @@ const Escalacao = () => {
                 style={{ top: '0%', left: '43%' }}
               >
                 <img
-                  src={`/src/assets/${podio[0].Foto}`}
+                  src={`/assets/${podio[0].Foto}`}
                   alt={podio[0].Nome}
                   className="w-32 h-32 rounded-full pilotoFotoEscalacao"
                 />
@@ -64,7 +63,7 @@ const Escalacao = () => {
                 style={{ top: '7%', left: '22%' }}
               >
                 <img
-                  src={podio && podio[1] ? `/src/assets/${podio[1].Foto}` : "/src/assets/placeholder.png"}
+                  src={podio && podio[1] ? `/assets/${podio[1].Foto}` : "/placeholder.png"}
                   alt={podio && podio[1] ? podio[1].Nome : "Placeholder"}
                   className="w-32 h-32 rounded-full pilotoFotoEscalacao"
                 />
@@ -78,7 +77,7 @@ const Escalacao = () => {
                 style={{ top: '8%', left: '63%' }}
               >
                 <img
-                  src={`/src/assets/${podio[2].Foto}`}
+                  src={`/assets/${podio[2].Foto}`}
                   alt={podio[2].Nome}
                   className="w-32 h-32 rounded-full pilotoFotoEscalacao"
                 />
@@ -94,7 +93,7 @@ const Escalacao = () => {
             <SelectPilotoCard
               name={polePosition ? polePosition.Nome : ""}
               lastName={polePosition ? polePosition.Sobrenome : ""}
-              image={polePosition ? polePosition.Foto : "placeholder.png"}
+              image={polePosition ? polePosition.Foto : "/placeholder.png"}
               team={false}
               onClick={() => navigate('/pole')}
               podiumPosition={""}
@@ -105,7 +104,7 @@ const Escalacao = () => {
             <h3 className="font-bold text-xl">Equipe que mais pontuará</h3>
             <SelectPilotoCard 
               name={maiorPontuador ? maiorPontuador.name : ''} 
-              image={maiorPontuador ? maiorPontuador.logo : placeholder}
+              image={maiorPontuador ? maiorPontuador.logo : "/assets/placeholder.png"}
               team={true}
               podiumPosition={""}
               onClick={() => navigate('/maiorPontuadora')}

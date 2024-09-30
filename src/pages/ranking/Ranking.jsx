@@ -1,8 +1,6 @@
 import Navbar from "../../components/navbar/Navbar";
 import SelectPilotoCard from "../../components/select-piloto-card/SelectPilotoCard";
 import "./index.css";
-import { podium, placeholder } from "../../assets/index";
-
 const Ranking = () => {
   return (
     <div className="ranking">
@@ -12,7 +10,7 @@ const Ranking = () => {
       <div className="ranking-container">
         <div className="relative h-[500px] cursor-pointer hover:scale-[102%] duration-200 divPodio">
           <img
-            src={podium}
+            src="/assets/podium.webp"
             alt="podio image"
             className="w-[750px] h-full object-contain podio"
           />
@@ -20,7 +18,7 @@ const Ranking = () => {
           <>
             <div className="absolute" style={{ top: "0%", left: "43%" }}>
               <img
-                src="/src/assets/images/mahindra/piloto1.png"
+                src="/assets/images/mahindra/piloto1.png"
                 alt="Edoardo Mortara"
                 className="w-32 h-32 rounded-full pilotoFotoEscalacao"
               />
@@ -32,7 +30,7 @@ const Ranking = () => {
 
             <div className="absolute" style={{ top: "7%", left: "22%" }}>
               <img
-                src="/src/assets/images/abt/piloto1.png"
+                src="/assets/images/abt/piloto1.png"
                 alt="Lucas Di Grassi"
                 className="w-32 h-32 rounded-full pilotoFotoEscalacao"
               />
@@ -43,7 +41,7 @@ const Ranking = () => {
 
             <div className="absolute" style={{ top: "8%", left: "63%" }}>
               <img
-                src="/src/assets/images/nissan/piloto1.png"
+                src="/assets/images/nissan/piloto1.png"
                 alt="Sacha Fenestraz"
                 className="w-32 h-32 rounded-full pilotoFotoEscalacao"
               />

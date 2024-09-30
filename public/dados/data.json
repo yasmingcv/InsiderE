@@ -13,7 +13,7 @@
           "https://p.turbosquid.com/ts-thumb/9C/eHVTPS/my/seq/jpg/1701968505/1920x1080/turn_fit_q99/1514931e94580e28685b90a5206dd3ebdf4ceaf7/seq-19.jpg"
       ],
       "piloto1": {
-        "Foto": "images/abt/piloto1.png",
+        "Foto": "/images/abt/piloto1.png",
         "Nome": "LUCAS",
         "Sobrenome": "DI GRASSI",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
@@ -22,7 +22,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/abt/piloto2.png",
+        "Foto": "/images/abt/piloto2.png",
         "Nome": "NICO",
         "Sobrenome": "MUELLER",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
@@ -82,7 +82,7 @@
           "https://p.turbosquid.com/ts-thumb/s4/8b7wtH/Gw/seq/jpg/1702999960/1920x1080/turn_fit_q99/cefac20ab722e199163726f466d217ec43a4fcb5/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/andretti/piloto1.png",
+        "Foto": "/images/andretti/piloto1.png",
         "Nome": "Jake",
         "Sobrenome": "Dennis",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
@@ -91,7 +91,7 @@
         "Vitorias": 1
       },
       "piloto2": {
-        "Foto": "images/andretti/piloto2.png",
+        "Foto": "/images/andretti/piloto2.png",
         "Nome": "NORMAN",
         "Sobrenome": "NATO",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
@@ -151,7 +151,7 @@
           "https://p.turbosquid.com/ts-thumb/kz/VR0iqC/Yh/seq/jpg/1672166162/1920x1080/turn_fit_q99/64194df5a237ff9dde64434e6cc5bc32be1dbdd6/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/jaguar/piloto1.png",
+        "Foto": "/images/jaguar/piloto1.png",
         "Nome": "Mitch",
         "Sobrenome": "Evans",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
@@ -160,7 +160,7 @@
         "Vitorias": 3
       },
       "piloto2": {
-        "Foto": "images/jaguar/piloto2.png",
+        "Foto": "/images/jaguar/piloto2.png",
         "Nome": "Nick",
         "Sobrenome": "Cassidy",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nz.svg",
@@ -220,7 +220,7 @@
           "https://p.turbosquid.com/ts-thumb/EO/VxshgK/H3/seq/jpg/1702996348/1920x1080/turn_fit_q99/e592136e5001c28e6ba637406fc99209fde37d69/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/envision/piloto1.png",
+        "Foto": "/images/envision/piloto1.png",
         "Nome": "ROBIN",
         "Sobrenome": "FRIJNS",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
@@ -229,7 +229,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/envision/piloto2.png",
+        "Foto": "/images/envision/piloto2.png",
         "Nome": "Sebastien",
         "Sobrenome": "Buemi",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
@@ -289,7 +289,7 @@
           "https://p.turbosquid.com/ts-thumb/3t/FWPzRC/Qx/seq/jpg/1702652544/1920x1080/turn_fit_q99/104aea43b58cda6aa41d28276425a4c209262a30/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/mahindra/piloto1.png",
+        "Foto": "/images/mahindra/piloto1.png",
         "Nome": "NYCK",
         "Sobrenome": "De Vries",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/nl.svg",
@@ -298,7 +298,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/mahindra/piloto2.png",
+        "Foto": "/images/mahindra/piloto2.png",
         "Nome": "Edoardo",
         "Sobrenome": "Mortara",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/ch.svg",
@@ -358,7 +358,7 @@
           "https://p.turbosquid.com/ts-thumb/73/p6AQox/IV/seq/jpg/1703003714/1920x1080/turn_fit_q99/3c55978a4afafb824afd02c16ee68cfb464312fe/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/nissan/piloto1.png",
+        "Foto": "/images/nissan/piloto1.png",
         "Nome": "Sacha",
         "Sobrenome": "Fenestraz",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
@@ -367,7 +367,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/nissan/piloto2.png",
+        "Foto": "/images/nissan/piloto2.png",
         "Nome": "Oliver",
         "Sobrenome": "Rowland",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
@@ -427,7 +427,7 @@
           "https://p.turbosquid.com/ts-thumb/0q/BO9ES5/EV/turntb/jpg/1655200583/1920x1080/turn_fit_q99/96c5c7b82f25414e7f2e7ae3afd219d77ff613dd/turntb-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/porshe/piloto1.png",
+        "Foto": "/images/porshe/piloto1.png",
         "Nome": "Felix",
         "Sobrenome": "da Costa",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/pt.svg",
@@ -436,7 +436,7 @@
         "Vitorias": 2
       },
       "piloto2": {
-        "Foto": "images/porshe/piloto2.png",
+        "Foto": "/images/porshe/piloto2.png",
         "Nome": "Pascal",
         "Sobrenome": "Wehrlein",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
@@ -496,7 +496,7 @@
           "https://p.turbosquid.com/ts-thumb/rz/uhxI6t/F6/seq/jpg/1703002411/1920x1080/turn_fit_q99/5c58f832a75d2533ac5016e2c43418b2e4841e0f/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/mclaren/piloto1.png",
+        "Foto": "/images/mclaren/piloto1.png",
         "Nome": "Jake",
         "Sobrenome": "Hughes",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
@@ -505,7 +505,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/mclaren/piloto2.png",
+        "Foto": "/images/mclaren/piloto2.png",
         "Nome": "SAM",
         "Sobrenome": "BIRD",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",
@@ -565,7 +565,7 @@
           "https://p.turbosquid.com/ts-thumb/7t/cLCBgZ/vP/seq/jpg/1702998791/1920x1080/turn_fit_q99/3c53399de3fc892c6a857f75f64287e647899363/seq-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/ds/piloto1.png",
+        "Foto": "/images/ds/piloto1.png",
         "Nome": "Maximilian",
         "Sobrenome": "Guenther",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/de.svg",
@@ -574,7 +574,7 @@
         "Vitorias": 1
       },
       "piloto2": {
-        "Foto": "images/ds/piloto2.png",
+        "Foto": "/images/ds/piloto2.png",
         "Nome": "JEHAN",
         "Sobrenome": "DARUVALA",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/in.svg",
@@ -634,7 +634,7 @@
           "https://p.turbosquid.com/ts-thumb/F0/T5k6Oz/gUSNSwZx/seqr/jpg/1512725778/1920x1080/turn_fit_q99/904c415c1a48a0155aa2512c9de28217379cbabf/seqr-18.jpg"
       ],
       "piloto1": {
-        "Foto": "images/ds/piloto1.png",
+        "Foto": "/images/ds/piloto1.png",
         "Nome": "Stoffel",
         "Sobrenome": "Vandoorne",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/be.svg",
@@ -643,7 +643,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/ds/piloto2.png",
+        "Foto": "/images/ds/piloto2.png",
         "Nome": "Jean-Eric",
         "Sobrenome": "Vergne",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/fr.svg",
@@ -703,7 +703,7 @@
       ],
       "logo": "https://static-files.formula-e.pulselive.com/badges/5ac8091a-b415-4abb-a7ef-fb5511e545d5.svg",
       "piloto1": {
-        "Foto": "images/ert/piloto1.png",
+        "Foto": "/images/ert/piloto1.png",
         "Nome": "SETTE",
         "Sobrenome": "CÂMARA",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/br.svg",
@@ -712,7 +712,7 @@
         "Vitorias": 0
       },
       "piloto2": {
-        "Foto": "images/ert/piloto2.png",
+        "Foto": "/images/ert/piloto2.png",
         "Nome": "DAN",
         "Sobrenome": "DTICKTUM",
         "Nacionalidade": "https://static-files.formula-e.pulselive.com/flags/gb.svg",

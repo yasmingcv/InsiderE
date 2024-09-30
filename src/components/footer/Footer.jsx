@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="logo">
-        <img src="/src/assets/images/logo_branca.png" alt="logo" />
+        <img src="/assets/images/logo_branca.png" alt="logo" />
         <p>Propondo acesso fácil e divertido à informação e ao esporte.</p>
       </div>
       <div className="apoio">

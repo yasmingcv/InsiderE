@@ -6,12 +6,11 @@ import { DropdownTrigger } from '@nextui-org/dropdown';
 import { Button } from '@nextui-org/button';
 import { DropdownMenu } from '@nextui-org/dropdown';
 import { DropdownItem } from '@nextui-org/dropdown';
-import { menu } from '../../assets';
 
 const Navbar = (props) => {
   return (
     <header>
-       <Link to="/"><img id="logo-header-team" src="/src/assets/images/logo_branca.png" alt=""/></Link>
+       <Link to="/"><img id="logo-header-team" src="/assets/images/logo_branca.png" alt=""/></Link>
         {props.showButtons ? (
           <div className="buttons buttons-header">
             <button className={`text-white bg-blue-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-4 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800`} id="entrar"><Link to="/">ENTRAR</Link></button>
@@ -39,7 +38,7 @@ const Navbar = (props) => {
               <Dropdown className="dark">
                 <DropdownTrigger>
                   <Button isIconOnly color="primary" variant="bordered">
-                    <img src={menu} alt="" />
+                    <img src="/assets/menu.svg" alt="" />
                   </Button>
                 </DropdownTrigger>
                 <DropdownMenu aria-label="Static Actions">

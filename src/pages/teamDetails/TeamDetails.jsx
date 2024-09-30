@@ -18,28 +18,43 @@ const TeamDetails = () => {
         .then((data) => {
           const teamFound = data.teams.find((t) => t.id == id);
           setTeam(teamFound);
-          iniciarSlideShow(teamFound);
         })
         .catch((error) => console.error("Error fetching the JSON:", error));
     }
   }, [id]);
 
-  const iniciarSlideShow = (team) => {
-    const imageContainer = document.getElementById("containerImg");
-    const slideShow = () => {
-      imageContainer.style.opacity = "0";
-      setTimeout(() => {
-        imageContainer.style.transition = "opacity 1s";
-        imageContainer.style.opacity = "1";
-        imageContainer.src = team.imgCars[indexSlide];
-      }, 350);
+  useEffect(() => {
+    if (team) {
+      iniciarSlideShow();
+    }
+  }, [team]);
 
+  const iniciarSlideShow = () => {
+    const imageContainer = document.getElementById("containerImg");
+    
+    if (!imageContainer || imageContainer.tagName !== "IMG") {
+      console.error("O elemento não é uma imagem (tag <img>) ou não foi encontrado.");
+      return;
+    }
+  
+    const slideShow = () => {
+      imageContainer.style.transition = "opacity 1s";
+      imageContainer.style.opacity = "0";
+  
+      setTimeout(() => {
+        imageContainer.src = team.imgCars[indexSlide];
+        imageContainer.style.opacity = "1";      
+      }, 350);
+  
       setIndexSlide((prev) => (prev + 1) % team.imgCars.length);
+
       setTimeout(slideShow, time);
     };
 
     slideShow();
   };
+  
+  
 
   if (!team) {
     return <div>Carregando...</div>;
@@ -64,7 +79,7 @@ const TeamDetails = () => {
             </div>
             <img
               className="imagem-piloto"
-              src={`/src/assets/${team.piloto1.Foto}`}
+              src={`/assets/${team.piloto1.Foto}`}
               alt="Logo do time"
             />
           </div>
@@ -75,7 +90,7 @@ const TeamDetails = () => {
             </div>
             <img
               className="imagem-piloto"
-              src={`/src/assets/${team.piloto2.Foto}`}
+              src={`/assets/${team.piloto2.Foto}`}
               alt="Logo do time"
             />
           </div>
@@ -91,7 +106,7 @@ const TeamDetails = () => {
             </div>
             <img
               className="imagem-piloto pilotoImg1"
-              src={`/src/assets/${team.piloto1.Foto}`}
+              src={`/assets/${team.piloto1.Foto}`}
               alt="Piloto 1"
             />
             <ul>
@@ -124,7 +139,7 @@ const TeamDetails = () => {
             </div>
             <img
               className="imagem-piloto"
-              src={`/src/assets/${team.piloto2.Foto}`}
+              src={`/assets/${team.piloto2.Foto}`}
               alt="Piloto 2"
             />
             <ul>
